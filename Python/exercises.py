@@ -1,95 +1,58 @@
-# #Crea una función calculadora que reciba dos números y una operación (+, -, *, /) y retorne el resultado.
-
-# def calculadora():
-#     a= float(input("Ingrese el primer numero: "))
-#     b= float(input("Ingrese el segundo numero: "))
-#     operacion = input("Ingrese la operacion: ")
-    
-    
-#     if operacion == 'suma':
-#         resultado = a+b
-#     elif operacion == 'resta':
-#         resultado = a-b
-#     elif operacion == 'multiplicacion':
-#         resultado = a*b
-#     elif operacion == 'division':
-#         resultado = a/b
-#     else:
-#         resultado = "Operación no valida"
-    
-#     print("El resultado es" ,resultado)
-    
-# calculadora()
-
-
-
-# #Escribe una función que reciba una cadena de texto y retorne un diccionario con el conteo de cada palabra.
-
-# def contar(cadena):
-#     palabras = cadena.split()
-#     diccionario = {}
-      
-#     for palabra in palabras:
-#         if palabra in diccionario:
-#             diccionario[palabra] +=1
-#         else:
-#             diccionario[palabra] = 1
-#     return diccionario
-
-# texto= "Hola mundo como estan"
-# resultado= contar(texto)
-# print (resultado)
-
-#Crea una función que determine si una palabra o frase es un palíndromo (se lee igual al derecho que al revés).
-
-# def palindromo():
-#     texto = input("Ingrese una palabra: ").replace(" "," ").lower()
-    
-#     if texto == texto[::-1]:
-#         print("Es un palindromo.")
-#     else:
-#         print("No es un palindromo")
-        
-# palindromo()
-
-
-
-# # Implementar una función que genere una contraseña aleatoria de una longitud dada, combinando letras, números y símbolos. Permite que el usuario elija si desea incluir mayúsculas, números o caracteres especiales.
 import random
 import string
 
-def generar_contraseña():
-    longitud = input("Ingrese la longitud de la contra: ")
+# Función de la calculadora
+def calculadora():
+    a = float(input("Ingrese el primer número: "))
+    b = float(input("Ingrese el segundo número: "))
+    operacion = input("Ingrese la operación (+, -, *, /): ")
+
+    if operacion == '+':
+        resultado = a + b
+    elif operacion == '-':
+        resultado = a - b
+    elif operacion == '*':
+        resultado = a * b
+    elif operacion == '/':
+        if b != 0:
+            resultado = a / b
+        else:
+            resultado = "Error: División por cero."
+    else:
+        resultado = "Operación no válida"
     
-    incluir_mayusculas = input ("¿Incluir mayus?")
-    incluir_numeros = input("¿Incluir numeros?")
-    incluir_simbolos = input("¿Incluir caracteres especiales?")
+    print("El resultado es:", resultado)
+
+# Función para contar palabras con numeración
+def contar_palabras(texto):
+    palabras = texto.split()
+    conteo = {palabra: i+1 for i, palabra in enumerate(palabras)}
+    return conteo
+
+# Función para verificar si una palabra es un palíndromo
+def palindromo():
+    texto = input("Ingrese una palabra o frase: ").replace(" ", "").lower()
+    if texto == texto[::-1]:
+        print("Es un palíndromo.")
+    else:
+        print("No es un palíndromo.")
+
+# Función para generar una contraseña aleatoria
+def generar_contraseña(longitud, mayusculas, numeros, especiales):
+    minúsculas = string.ascii_lowercase
+    mayúsculas = string.ascii_uppercase if mayusculas else ''
+    dígitos = string.digits if numeros else ''
+    símbolos = string.punctuation if especiales else ''
     
-    mayusculas = (string.ascii_uppercase)
-    
+    caracteres = minúsculas + mayúsculas + dígitos + símbolos
 
+    if not caracteres:
+        raise ValueError("Debe incluir al menos un tipo de carácter en la contraseña.")
 
-# #Crea una función que convierta una temperatura de Celsius a Fahrenheit y viceversa.
+    contraseña = ''.join(random.choice(caracteres) for _ in range(longitud))
+    return contraseña
 
-# def convertir():
-#     conversion = input("¿Convertir de C a F o de F a C?").lower()
-    
-#     if conversion == "c":
-#         celsius = float(input("Ingrese la temp C: "))
-#         fahrenheit = (celsius * 9/5) + 32
-#         print(f"{celsius} grados C equivalen a {fahrenheit} grados f")
-#     elif conversion == "f":
-#         fahrenheit = float(input("Ingrese la temp F:"))
-#         celsius = (fahrenheit - 32) * 5/9
-#         print(f"{fahrenheit} grados C equivalen a {celsius} grados f")
-        
-# convertir()
-    
-
-
-
-#Crea una función que genere la secuencia de Fibonacci hasta el número n. Implementa la versión recursiva y la versión iterativa.
-
+# Función para generar la secuencia de Fibonacci (recursivo)
 def fibonacci_recursivo(n):
     if n <= 1:
         return n
@@ -101,17 +64,85 @@ def generar_fibonacci_recursivo(n):
     for i in range(n):
         secuencia.append(fibonacci_recursivo(i))
     return secuencia
-    
-n = int(input("Ingrese la cantidad de numero para secuencia de fibonacci recursivo: "))
-print(generar_fibonacci_recursivo(n))
 
-def fibonacci_iterativo(m):
-    secuencia = []
-    a,b=0,1
-    for i in range(n):
-        secuencia.append(a)
-        a, b = b , a + b
-    return secuencia
+# Función para contar vocales y consonantes
+def contar_vocales_consonantes(cadena):
+    vocales = "aeiouáéíóúüAEIOUÁÉÍÓÚÜ"
+    consonantes = "bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ"
 
-m = int(input("Ingrese la cantidad de numeros para secuencia de fibonacci iterativo: "))
-print(fibonacci_iterativo(n))
+    num_vocales = sum(1 for letra in cadena if letra in vocales)
+    num_consonantes = sum(1 for letra in cadena if letra in consonantes)
+
+    return num_vocales, num_consonantes
+
+# Función para adivinar el número
+def adivina_el_numero():
+    numero_secreto = random.randint(1, 100)
+    intentos = 0
+    adivinado = False
+
+    print("He elegido un número entre 1 y 100. Intenta adivinarlo.\n")
+
+    while not adivinado:
+        try:
+            intento = int(input("Introduce tu número: "))
+            intentos += 1
+
+            if intento < numero_secreto:
+                print("El número es mayor. Intenta de nuevo.\n")
+            elif intento > numero_secreto:
+                print("El número es menor. Intenta de nuevo.\n")
+            else:
+                adivinado = True
+                print(f"Adivinaste el número {numero_secreto} en {intentos} intentos.")
+
+        except ValueError:
+            print(" Ingresa un número válido.\n")
+
+def menu():
+    while True:
+        print("\nMenú de opciones:")
+        print("1. Calculadora")
+        print("2. Contar palabras")
+        print("3. Verificar palíndromo")
+        print("4. Generar contraseña aleatoria")
+        print("5. Generar secuencia de Fibonacci (recursivo)")
+        print("6. Contar vocales y consonantes")
+        print("7. Adivina el número")
+        print("8. Salir")
+
+        opcion = input("Elija una opción (1-8): ")
+
+        if opcion == '1':
+            calculadora()
+        elif opcion == '2':
+            texto = input("Ingrese un texto: ")
+            resultado = contar_palabras(texto)
+            print("\nNumeración de palabras:")
+            for palabra, numero in resultado.items():
+                print(f"{palabra}: {numero}")
+        elif opcion == '3':
+            palindromo()
+        elif opcion == '4':
+            longitud = int(input("Ingrese la longitud de la contraseña: "))
+            usar_mayusculas = input("¿Incluir mayúsculas? (s/n): ").strip().lower() == 's'
+            usar_numeros = input("¿Incluir números? (s/n): ").strip().lower() == 's'
+            usar_especiales = input("¿Incluir caracteres especiales? (s/n): ").strip().lower() == 's'
+            contraseña_generada = generar_contraseña(longitud, usar_mayusculas, usar_numeros, usar_especiales)
+            print(f"\n Contraseña generada: {contraseña_generada}")
+        elif opcion == '5':
+            n = int(input("Ingrese la cantidad de números para la secuencia de Fibonacci: "))
+            print(generar_fibonacci_recursivo(n))
+        elif opcion == '6':
+            cadena = input("Ingrese una cadena: ")
+            vocales, consonantes = contar_vocales_consonantes(cadena)
+            print(f"\nVocales: {vocales}")
+            print(f"Consonantes: {consonantes}")
+        elif opcion == '7':
+            adivina_el_numero()
+        elif opcion == '8':
+            print("¡Hasta luego!")
+            break
+        else:
+            print("Opción no válida. Intenta nuevamente.")
+menu()
