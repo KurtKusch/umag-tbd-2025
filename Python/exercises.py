@@ -17,7 +17,7 @@ def calculadora():
         if b != 0:
             resultado = a / b
         else:
-            resultado = "Error: División por cero."
+            resultado = "Error"
     else:
         resultado = "Operación no válida"
     
@@ -81,7 +81,7 @@ def adivina_el_numero():
     intentos = 0
     adivinado = False
 
-    print("He elegido un número entre 1 y 100. Intenta adivinarlo.\n")
+    print("He elegido un número entre 1 y 100.\n")
 
     while not adivinado:
         try:
@@ -89,15 +89,15 @@ def adivina_el_numero():
             intentos += 1
 
             if intento < numero_secreto:
-                print("El número es mayor. Intenta de nuevo.\n")
+                print("El numero es mayor.\n")
             elif intento > numero_secreto:
-                print("El número es menor. Intenta de nuevo.\n")
+                print("El numero es menor.\n")
             else:
                 adivinado = True
-                print(f"Adivinaste el número {numero_secreto} en {intentos} intentos.")
+                print(f"Adivinaste el numero {numero_secreto} en {intentos} intentos.")
 
         except ValueError:
-            print(" Ingresa un número válido.\n")
+            print(" Ingresa un numero valido.\n")
 
 def menu():
     while True:
