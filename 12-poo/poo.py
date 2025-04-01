@@ -67,8 +67,8 @@ class Biblioteca:
                 return libro
         return None
 
-libro1 = Libro("El principito", "Antoine de Saint-Exupéry", "978-84-206-8539-1", True)
-libro2 = Libro("Cien años de soledad", "Gabriel García Márquez", "978-84-376-0494-7", True)
+libro1 = Libro("ola", "Kurt Kusch", "123-321", True)
+libro2 = Libro("k pasa", "Los k", "321-123", True)
 
 usuario1 = Usuario("Jose", "1", [])
 usuario2 = Usuario("Mario", "2", [])
