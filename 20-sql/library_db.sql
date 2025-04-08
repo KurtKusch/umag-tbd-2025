@@ -153,7 +153,7 @@ CREATE TABLE public.categories (
     id integer NOT NULL,
     name character varying(50) NOT NULL
 );
-
+Mostrar el número de copias dañadas o perdidas por libro.
 
 --
 -- Name: categories_id_seq; Type: SEQUENCE; Schema: public; Owner: -

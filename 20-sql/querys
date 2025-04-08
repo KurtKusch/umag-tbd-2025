@@ -1,0 +1,4 @@
+select bc.status, count(*)
+from book_copies b
+group by bc.status
+
