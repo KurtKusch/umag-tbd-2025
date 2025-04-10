@@ -1,7 +1,7 @@
 --
 -- PostgreSQL database dump
 --
-
+-- Libros, autores, categorias
 -- Dumped from database version 16.8
 -- Dumped by pg_dump version 16.8
 
