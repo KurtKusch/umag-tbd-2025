@@ -1,0 +1,422 @@
+[
+    {
+        "label": "runpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "runpy",
+        "description": "runpy",
+        "detail": "runpy",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Controller",
+        "importPath": "litestar",
+        "description": "litestar",
+        "isExtraImport": true,
+        "detail": "litestar",
+        "documentation": {}
+    },
+    {
+        "label": "get",
+        "importPath": "litestar",
+        "description": "litestar",
+        "isExtraImport": true,
+        "detail": "litestar",
+        "documentation": {}
+    },
+    {
+        "label": "post",
+        "importPath": "litestar",
+        "description": "litestar",
+        "isExtraImport": true,
+        "detail": "litestar",
+        "documentation": {}
+    },
+    {
+        "label": "patch",
+        "importPath": "litestar",
+        "description": "litestar",
+        "isExtraImport": true,
+        "detail": "litestar",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "importPath": "litestar",
+        "description": "litestar",
+        "isExtraImport": true,
+        "detail": "litestar",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "litestar.exceptions",
+        "description": "litestar.exceptions",
+        "isExtraImport": true,
+        "detail": "litestar.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "NotFoundError",
+        "importPath": "advanced_alchemy.exceptions",
+        "description": "advanced_alchemy.exceptions",
+        "isExtraImport": true,
+        "detail": "advanced_alchemy.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "NoResultFound",
+        "importPath": "sqlalchemy.exc",
+        "description": "sqlalchemy.exc",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.exc",
+        "documentation": {}
+    },
+    {
+        "label": "ComparisonFilter",
+        "importPath": "advanced_alchemy.filters",
+        "description": "advanced_alchemy.filters",
+        "isExtraImport": true,
+        "detail": "advanced_alchemy.filters",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "DeclarativeBase",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "TodoItemReadDTO",
+        "importPath": "app.dtos",
+        "description": "app.dtos",
+        "isExtraImport": true,
+        "detail": "app.dtos",
+        "documentation": {}
+    },
+    {
+        "label": "TodoItemCreateDTO",
+        "importPath": "app.dtos",
+        "description": "app.dtos",
+        "isExtraImport": true,
+        "detail": "app.dtos",
+        "documentation": {}
+    },
+    {
+        "label": "TodoItemUpdateDTO",
+        "importPath": "app.dtos",
+        "description": "app.dtos",
+        "isExtraImport": true,
+        "detail": "app.dtos",
+        "documentation": {}
+    },
+    {
+        "label": "DTOData",
+        "importPath": "litestar.dto",
+        "description": "litestar.dto",
+        "isExtraImport": true,
+        "detail": "litestar.dto",
+        "documentation": {}
+    },
+    {
+        "label": "Provide",
+        "importPath": "litestar.di",
+        "description": "litestar.di",
+        "isExtraImport": true,
+        "detail": "litestar.di",
+        "documentation": {}
+    },
+    {
+        "label": "provide_todoitem_repo",
+        "importPath": "app.repositories",
+        "description": "app.repositories",
+        "isExtraImport": true,
+        "detail": "app.repositories",
+        "documentation": {}
+    },
+    {
+        "label": "TodoItemRepository",
+        "importPath": "app.repositories",
+        "description": "app.repositories",
+        "isExtraImport": true,
+        "detail": "app.repositories",
+        "documentation": {}
+    },
+    {
+        "label": "TodoItem",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "TodoItem",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "TodoItem",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemyDTO",
+        "importPath": "litestar.plugins.sqlalchemy",
+        "description": "litestar.plugins.sqlalchemy",
+        "isExtraImport": true,
+        "detail": "litestar.plugins.sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemyDTOConfig",
+        "importPath": "advanced_alchemy.extensions.litestar",
+        "description": "advanced_alchemy.extensions.litestar",
+        "isExtraImport": true,
+        "detail": "advanced_alchemy.extensions.litestar",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemySyncRepository",
+        "importPath": "advanced_alchemy.repository",
+        "description": "advanced_alchemy.repository",
+        "isExtraImport": true,
+        "detail": "advanced_alchemy.repository",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"learnin-litestar\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.13/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"learnin-litestar\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.13/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"learnin-litestar\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.13/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"learnin-litestar\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.13/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"learnin-litestar\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.13/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"../lib/python3.13/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "TodoController",
+        "kind": 6,
+        "importPath": "app.controllers",
+        "description": "app.controllers",
+        "peekOfCode": "class TodoController(Controller):\n    path = \"/items\"\n    return_dto=TodoItemReadDTO\n    dependencies = {\n        \"todoitem_repo\": Provide(provide_todoitem_repo)\n    }\n    @get(\"/\")\n    async def list_items(self, todoitems_repo: TodoItemRepository, done: bool | None = None) -> Sequence[TodoItem]:\n        return todoitems_repo.list(ComparisonFilter(\"done\", \"eq\". done))\n    @post(\"/\", dto=TodoItemCreateDTO)",
+        "detail": "app.controllers",
+        "documentation": {}
+    },
+    {
+        "label": "TodoItemReadDTO",
+        "kind": 6,
+        "importPath": "app.dtos",
+        "description": "app.dtos",
+        "peekOfCode": "class TodoItemReadDTO(SQLAlchemyDTO[TodoItem]):\n    pass\nclass TodoItemCreateDTO(SQLAlchemyDTO[TodoItem]):\n    config = SQLAlchemyDTOConfig(exclude=[\"id\"])\nclass TodoItemUpdateDTO(SQLAlchemyDTO[TodoItem]):\n    config = SQLAlchemyDTOConfig(exclude=[\"id\"], partial=True, )",
+        "detail": "app.dtos",
+        "documentation": {}
+    },
+    {
+        "label": "TodoItemCreateDTO",
+        "kind": 6,
+        "importPath": "app.dtos",
+        "description": "app.dtos",
+        "peekOfCode": "class TodoItemCreateDTO(SQLAlchemyDTO[TodoItem]):\n    config = SQLAlchemyDTOConfig(exclude=[\"id\"])\nclass TodoItemUpdateDTO(SQLAlchemyDTO[TodoItem]):\n    config = SQLAlchemyDTOConfig(exclude=[\"id\"], partial=True, )",
+        "detail": "app.dtos",
+        "documentation": {}
+    },
+    {
+        "label": "TodoItemUpdateDTO",
+        "kind": 6,
+        "importPath": "app.dtos",
+        "description": "app.dtos",
+        "peekOfCode": "class TodoItemUpdateDTO(SQLAlchemyDTO[TodoItem]):\n    config = SQLAlchemyDTOConfig(exclude=[\"id\"], partial=True, )",
+        "detail": "app.dtos",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 6,
+        "importPath": "app.models",
+        "description": "app.models",
+        "peekOfCode": "class Base(DeclarativeBase):\n    pass\nclass TodoItem(Base):\n    __tablename__ = \"todo_items\"\n    id: Mapped[int] = mapped_column(primary_key=True)\n    title: Mapped[str]\n    done: Mapped[bool]",
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "TodoItem",
+        "kind": 6,
+        "importPath": "app.models",
+        "description": "app.models",
+        "peekOfCode": "class TodoItem(Base):\n    __tablename__ = \"todo_items\"\n    id: Mapped[int] = mapped_column(primary_key=True)\n    title: Mapped[str]\n    done: Mapped[bool]",
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "TodoItemRepository",
+        "kind": 6,
+        "importPath": "app.repositories",
+        "description": "app.repositories",
+        "peekOfCode": "class TodoItemRepository(SQLAlchemySyncRepository[TodoItem]):\n    model_type = TodoItem\nasync def provide_todoitem_repo(db_session: Session) -> TodoItemRepository:\n    return TodoItemRepository(session=db_session)",
+        "detail": "app.repositories",
+        "documentation": {}
+    }
+]

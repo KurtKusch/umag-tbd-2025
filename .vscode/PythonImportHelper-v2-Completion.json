@@ -1,0 +1,1841 @@
+[
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "runpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "runpy",
+        "description": "runpy",
+        "detail": "runpy",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "engine_from_config",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "pool",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "update",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "not_",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "src.models",
+        "description": "src.models",
+        "isExtraImport": true,
+        "detail": "src.models",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "src.models",
+        "description": "src.models",
+        "isExtraImport": true,
+        "detail": "src.models",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "importPath": "src.models",
+        "description": "src.models",
+        "isExtraImport": true,
+        "detail": "src.models",
+        "documentation": {}
+    },
+    {
+        "label": "Email",
+        "importPath": "src.models",
+        "description": "src.models",
+        "isExtraImport": true,
+        "detail": "src.models",
+        "documentation": {}
+    },
+    {
+        "label": "Grupo",
+        "importPath": "src.models",
+        "description": "src.models",
+        "isExtraImport": true,
+        "detail": "src.models",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "src.models",
+        "description": "src.models",
+        "isExtraImport": true,
+        "detail": "src.models",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "importPath": "src.models",
+        "description": "src.models",
+        "isExtraImport": true,
+        "detail": "src.models",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "DeclarativeBase",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "DeclarativeBase",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "DeclarativeBase",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "NoResultFound",
+        "importPath": "sqlalchemy.exc",
+        "description": "sqlalchemy.exc",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.exc",
+        "documentation": {}
+    },
+    {
+        "label": "NoResultFound",
+        "importPath": "sqlalchemy.exc",
+        "description": "sqlalchemy.exc",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.exc",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "src.db",
+        "description": "src.db",
+        "isExtraImport": true,
+        "detail": "src.db",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "importPath": "src.db",
+        "description": "src.db",
+        "isExtraImport": true,
+        "detail": "src.db",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "importPath": "src.db",
+        "description": "src.db",
+        "isExtraImport": true,
+        "detail": "src.db",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "src.db",
+        "description": "src.db",
+        "isExtraImport": true,
+        "detail": "src.db",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "Faker",
+        "importPath": "faker",
+        "description": "faker",
+        "isExtraImport": true,
+        "detail": "faker",
+        "documentation": {}
+    },
+    {
+        "label": "U",
+        "importPath": "re",
+        "description": "re",
+        "isExtraImport": true,
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "create_database",
+        "importPath": "src.db_ops",
+        "description": "src.db_ops",
+        "isExtraImport": true,
+        "detail": "src.db_ops",
+        "documentation": {}
+    },
+    {
+        "label": "get_user",
+        "importPath": "src.db_ops",
+        "description": "src.db_ops",
+        "isExtraImport": true,
+        "detail": "src.db_ops",
+        "documentation": {}
+    },
+    {
+        "label": "get_group",
+        "importPath": "src.db_ops",
+        "description": "src.db_ops",
+        "isExtraImport": true,
+        "detail": "src.db_ops",
+        "documentation": {}
+    },
+    {
+        "label": "disable_user",
+        "importPath": "src.db_ops",
+        "description": "src.db_ops",
+        "isExtraImport": true,
+        "detail": "src.db_ops",
+        "documentation": {}
+    },
+    {
+        "label": "query_users",
+        "importPath": "src.db_ops",
+        "description": "src.db_ops",
+        "isExtraImport": true,
+        "detail": "src.db_ops",
+        "documentation": {}
+    },
+    {
+        "label": "turn_enabled_user",
+        "importPath": "src.db_ops",
+        "description": "src.db_ops",
+        "isExtraImport": true,
+        "detail": "src.db_ops",
+        "documentation": {}
+    },
+    {
+        "label": "delete_user",
+        "importPath": "src.db_ops",
+        "description": "src.db_ops",
+        "isExtraImport": true,
+        "detail": "src.db_ops",
+        "documentation": {}
+    },
+    {
+        "label": "add_email_to_user",
+        "importPath": "src.db_ops",
+        "description": "src.db_ops",
+        "isExtraImport": true,
+        "detail": "src.db_ops",
+        "documentation": {}
+    },
+    {
+        "label": "crear_grupo",
+        "importPath": "src.db_ops",
+        "description": "src.db_ops",
+        "isExtraImport": true,
+        "detail": "src.db_ops",
+        "documentation": {}
+    },
+    {
+        "label": "Controller",
+        "importPath": "litestar",
+        "description": "litestar",
+        "isExtraImport": true,
+        "detail": "litestar",
+        "documentation": {}
+    },
+    {
+        "label": "get",
+        "importPath": "litestar",
+        "description": "litestar",
+        "isExtraImport": true,
+        "detail": "litestar",
+        "documentation": {}
+    },
+    {
+        "label": "post",
+        "importPath": "litestar",
+        "description": "litestar",
+        "isExtraImport": true,
+        "detail": "litestar",
+        "documentation": {}
+    },
+    {
+        "label": "patch",
+        "importPath": "litestar",
+        "description": "litestar",
+        "isExtraImport": true,
+        "detail": "litestar",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "importPath": "litestar",
+        "description": "litestar",
+        "isExtraImport": true,
+        "detail": "litestar",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "litestar.exceptions",
+        "description": "litestar.exceptions",
+        "isExtraImport": true,
+        "detail": "litestar.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "NotFoundError",
+        "importPath": "advanced_alchemy.exceptions",
+        "description": "advanced_alchemy.exceptions",
+        "isExtraImport": true,
+        "detail": "advanced_alchemy.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "ComparisonFilter",
+        "importPath": "advanced_alchemy.filters",
+        "description": "advanced_alchemy.filters",
+        "isExtraImport": true,
+        "detail": "advanced_alchemy.filters",
+        "documentation": {}
+    },
+    {
+        "label": "TodoItemReadDTO",
+        "importPath": "app.dtos",
+        "description": "app.dtos",
+        "isExtraImport": true,
+        "detail": "app.dtos",
+        "documentation": {}
+    },
+    {
+        "label": "TodoItemCreateDTO",
+        "importPath": "app.dtos",
+        "description": "app.dtos",
+        "isExtraImport": true,
+        "detail": "app.dtos",
+        "documentation": {}
+    },
+    {
+        "label": "TodoItemUpdateDTO",
+        "importPath": "app.dtos",
+        "description": "app.dtos",
+        "isExtraImport": true,
+        "detail": "app.dtos",
+        "documentation": {}
+    },
+    {
+        "label": "DTOData",
+        "importPath": "litestar.dto",
+        "description": "litestar.dto",
+        "isExtraImport": true,
+        "detail": "litestar.dto",
+        "documentation": {}
+    },
+    {
+        "label": "Provide",
+        "importPath": "litestar.di",
+        "description": "litestar.di",
+        "isExtraImport": true,
+        "detail": "litestar.di",
+        "documentation": {}
+    },
+    {
+        "label": "provide_todoitem_repo",
+        "importPath": "app.repositories",
+        "description": "app.repositories",
+        "isExtraImport": true,
+        "detail": "app.repositories",
+        "documentation": {}
+    },
+    {
+        "label": "TodoItemRepository",
+        "importPath": "app.repositories",
+        "description": "app.repositories",
+        "isExtraImport": true,
+        "detail": "app.repositories",
+        "documentation": {}
+    },
+    {
+        "label": "TodoItem",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "TodoItem",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "TodoItem",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemyDTO",
+        "importPath": "litestar.plugins.sqlalchemy",
+        "description": "litestar.plugins.sqlalchemy",
+        "isExtraImport": true,
+        "detail": "litestar.plugins.sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemyDTOConfig",
+        "importPath": "advanced_alchemy.extensions.litestar",
+        "description": "advanced_alchemy.extensions.litestar",
+        "isExtraImport": true,
+        "detail": "advanced_alchemy.extensions.litestar",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemySyncRepository",
+        "importPath": "advanced_alchemy.repository",
+        "description": "advanced_alchemy.repository",
+        "isExtraImport": true,
+        "detail": "advanced_alchemy.repository",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "string",
+        "description": "string",
+        "detail": "string",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "mylib.utils",
+        "description": "mylib.utils",
+        "isExtraImport": true,
+        "detail": "mylib.utils",
+        "documentation": {}
+    },
+    {
+        "label": "generar_contraseña",
+        "importPath": "exercises",
+        "description": "exercises",
+        "isExtraImport": true,
+        "detail": "exercises",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "Libro",
+        "kind": 6,
+        "importPath": "12-poo.poo",
+        "description": "12-poo.poo",
+        "peekOfCode": "class Libro:\n    def __init__(self, titulo: str, autor: str, isbn: str, disponible: bool):\n        self.titulo: str = titulo\n        self.autor: str = autor\n        self.isbn: str = isbn\n        self.disponible: bool =True\n    def mostrar_info(self) -> None:\n        disponibilidad = \"disponible\" if self.disponible else \"no disponible\"\n        print(f\"Libro: {self.titulo}\\nAutor: {self.autor}\\nISBN: {self.isbn}\\nEstado: {disponibilidad}\")\n    def prestar(self) -> None:",
+        "detail": "12-poo.poo",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "kind": 6,
+        "importPath": "12-poo.poo",
+        "description": "12-poo.poo",
+        "peekOfCode": "class Usuario:\n    def __init__(self, nombre : str, id_usuario: str, prestamos: List[Libro]):\n        self.nombre: str = nombre\n        self.id_usuario: str = id_usuario\n        self.prestamos: List[Libro] = []\n    def tomar_libro(self, libro: Libro) -> bool:\n        if libro.disponible:\n            libro.prestar()\n            self.prestamos.append(libro)\n            print(f\"{self.nombre} ha tomado el libro '{libro.titulo}'.\")",
+        "detail": "12-poo.poo",
+        "documentation": {}
+    },
+    {
+        "label": "Biblioteca",
+        "kind": 6,
+        "importPath": "12-poo.poo",
+        "description": "12-poo.poo",
+        "peekOfCode": "class Biblioteca:\n    def __init__(self, nombre: str, libros: List[Libro], usuarios: List[Usuario]):\n        self.nombre: str = nombre\n        self.libros: List[Libro] = []\n        self.usuarios: List[Usuario] = []\n    def agregar_libro(self, libro: Libro) -> None:\n        self.libros.append(libro)\n        print(f\"El libro '{libro.titulo}' ha sido agregado a la biblioteca.\")\n    def registrar_usuario(self, usuario: Usuario) -> None:\n        self.usuarios.append(usuario)",
+        "detail": "12-poo.poo",
+        "documentation": {}
+    },
+    {
+        "label": "libro1",
+        "kind": 5,
+        "importPath": "12-poo.poo",
+        "description": "12-poo.poo",
+        "peekOfCode": "libro1 = Libro(\"ola\", \"Kurt Kusch\", \"123-321\", True)\nlibro2 = Libro(\"k pasa\", \"Los k\", \"321-123\", True)\nusuario1 = Usuario(\"Jose\", \"1\", [])\nusuario2 = Usuario(\"Mario\", \"2\", [])\nbiblioteca1 = Biblioteca(\"Biblioteca Municipal\", [], [])\nbiblioteca1.agregar_libro(libro1)\nbiblioteca1.agregar_libro(libro2)\nbiblioteca1.registrar_usuario(usuario1)\nbiblioteca1.registrar_usuario(usuario2)\nbiblioteca1.mostrar_libros_disponibles()",
+        "detail": "12-poo.poo",
+        "documentation": {}
+    },
+    {
+        "label": "libro2",
+        "kind": 5,
+        "importPath": "12-poo.poo",
+        "description": "12-poo.poo",
+        "peekOfCode": "libro2 = Libro(\"k pasa\", \"Los k\", \"321-123\", True)\nusuario1 = Usuario(\"Jose\", \"1\", [])\nusuario2 = Usuario(\"Mario\", \"2\", [])\nbiblioteca1 = Biblioteca(\"Biblioteca Municipal\", [], [])\nbiblioteca1.agregar_libro(libro1)\nbiblioteca1.agregar_libro(libro2)\nbiblioteca1.registrar_usuario(usuario1)\nbiblioteca1.registrar_usuario(usuario2)\nbiblioteca1.mostrar_libros_disponibles()\nusuario1.tomar_libro(libro1)",
+        "detail": "12-poo.poo",
+        "documentation": {}
+    },
+    {
+        "label": "usuario1",
+        "kind": 5,
+        "importPath": "12-poo.poo",
+        "description": "12-poo.poo",
+        "peekOfCode": "usuario1 = Usuario(\"Jose\", \"1\", [])\nusuario2 = Usuario(\"Mario\", \"2\", [])\nbiblioteca1 = Biblioteca(\"Biblioteca Municipal\", [], [])\nbiblioteca1.agregar_libro(libro1)\nbiblioteca1.agregar_libro(libro2)\nbiblioteca1.registrar_usuario(usuario1)\nbiblioteca1.registrar_usuario(usuario2)\nbiblioteca1.mostrar_libros_disponibles()\nusuario1.tomar_libro(libro1)\nbiblioteca1.mostrar_libros_disponibles()",
+        "detail": "12-poo.poo",
+        "documentation": {}
+    },
+    {
+        "label": "usuario2",
+        "kind": 5,
+        "importPath": "12-poo.poo",
+        "description": "12-poo.poo",
+        "peekOfCode": "usuario2 = Usuario(\"Mario\", \"2\", [])\nbiblioteca1 = Biblioteca(\"Biblioteca Municipal\", [], [])\nbiblioteca1.agregar_libro(libro1)\nbiblioteca1.agregar_libro(libro2)\nbiblioteca1.registrar_usuario(usuario1)\nbiblioteca1.registrar_usuario(usuario2)\nbiblioteca1.mostrar_libros_disponibles()\nusuario1.tomar_libro(libro1)\nbiblioteca1.mostrar_libros_disponibles()\nusuario2.tomar_libro(libro1)",
+        "detail": "12-poo.poo",
+        "documentation": {}
+    },
+    {
+        "label": "biblioteca1",
+        "kind": 5,
+        "importPath": "12-poo.poo",
+        "description": "12-poo.poo",
+        "peekOfCode": "biblioteca1 = Biblioteca(\"Biblioteca Municipal\", [], [])\nbiblioteca1.agregar_libro(libro1)\nbiblioteca1.agregar_libro(libro2)\nbiblioteca1.registrar_usuario(usuario1)\nbiblioteca1.registrar_usuario(usuario2)\nbiblioteca1.mostrar_libros_disponibles()\nusuario1.tomar_libro(libro1)\nbiblioteca1.mostrar_libros_disponibles()\nusuario2.tomar_libro(libro1)\nusuario2.tomar_libro(libro2)",
+        "detail": "12-poo.poo",
+        "documentation": {}
+    },
+    {
+        "label": "libro_encontrado",
+        "kind": 5,
+        "importPath": "12-poo.poo",
+        "description": "12-poo.poo",
+        "peekOfCode": "libro_encontrado = biblioteca1.buscar_libro_por_titulo(\"Cien años de soledad\")\nif libro_encontrado:\n    libro_encontrado.mostrar_info()\nelse:\n    print(\"Libro no encontrado.\")",
+        "detail": "12-poo.poo",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": "20-sql.learning-sqlalchemy..venv.bin.activate_this",
+        "description": "20-sql.learning-sqlalchemy..venv.bin.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"learning-sqlalchemy\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.13/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": "20-sql.learning-sqlalchemy..venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": "20-sql.learning-sqlalchemy..venv.bin.activate_this",
+        "description": "20-sql.learning-sqlalchemy..venv.bin.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"learning-sqlalchemy\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.13/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)",
+        "detail": "20-sql.learning-sqlalchemy..venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": "20-sql.learning-sqlalchemy..venv.bin.activate_this",
+        "description": "20-sql.learning-sqlalchemy..venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"learning-sqlalchemy\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.13/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "detail": "20-sql.learning-sqlalchemy..venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": "20-sql.learning-sqlalchemy..venv.bin.activate_this",
+        "description": "20-sql.learning-sqlalchemy..venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"learning-sqlalchemy\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.13/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "20-sql.learning-sqlalchemy..venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
+        "kind": 5,
+        "importPath": "20-sql.learning-sqlalchemy..venv.bin.activate_this",
+        "description": "20-sql.learning-sqlalchemy..venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"learning-sqlalchemy\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.13/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "20-sql.learning-sqlalchemy..venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": "20-sql.learning-sqlalchemy..venv.bin.activate_this",
+        "description": "20-sql.learning-sqlalchemy..venv.bin.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"../lib/python3.13/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "20-sql.learning-sqlalchemy..venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": "20-sql.learning-sqlalchemy..venv.bin.activate_this",
+        "description": "20-sql.learning-sqlalchemy..venv.bin.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "20-sql.learning-sqlalchemy..venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": "20-sql.learning-sqlalchemy..venv.bin.activate_this",
+        "description": "20-sql.learning-sqlalchemy..venv.bin.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "20-sql.learning-sqlalchemy..venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": "20-sql.learning-sqlalchemy..venv.bin.activate_this",
+        "description": "20-sql.learning-sqlalchemy..venv.bin.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": "20-sql.learning-sqlalchemy..venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_offline",
+        "kind": 2,
+        "importPath": "20-sql.learning-sqlalchemy.alembic.env",
+        "description": "20-sql.learning-sqlalchemy.alembic.env",
+        "peekOfCode": "def run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "detail": "20-sql.learning-sqlalchemy.alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_online",
+        "kind": 2,
+        "importPath": "20-sql.learning-sqlalchemy.alembic.env",
+        "description": "20-sql.learning-sqlalchemy.alembic.env",
+        "peekOfCode": "def run_migrations_online() -> None:\n    \"\"\"Run migrations in 'online' mode.\n    In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    connectable = engine_from_config(\n        config.get_section(config.config_ini_section, {}),\n        prefix=\"sqlalchemy.\",\n        poolclass=pool.NullPool,\n    )",
+        "detail": "20-sql.learning-sqlalchemy.alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "20-sql.learning-sqlalchemy.alembic.env",
+        "description": "20-sql.learning-sqlalchemy.alembic.env",
+        "peekOfCode": "config = context.config\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nif config.config_file_name is not None:\n    fileConfig(config.config_file_name)\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata\nfrom src.models import Base",
+        "detail": "20-sql.learning-sqlalchemy.alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "target_metadata",
+        "kind": 5,
+        "importPath": "20-sql.learning-sqlalchemy.alembic.env",
+        "description": "20-sql.learning-sqlalchemy.alembic.env",
+        "peekOfCode": "target_metadata = Base.metadata\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation",
+        "detail": "20-sql.learning-sqlalchemy.alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "20-sql.learning-sqlalchemy.src.db",
+        "description": "20-sql.learning-sqlalchemy.src.db",
+        "peekOfCode": "engine = create_engine(\"postgresql+psycopg:///test_db_2025\", echo=False)\nSession = sessionmaker(engine)",
+        "detail": "20-sql.learning-sqlalchemy.src.db",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "kind": 5,
+        "importPath": "20-sql.learning-sqlalchemy.src.db",
+        "description": "20-sql.learning-sqlalchemy.src.db",
+        "peekOfCode": "Session = sessionmaker(engine)",
+        "detail": "20-sql.learning-sqlalchemy.src.db",
+        "documentation": {}
+    },
+    {
+        "label": "query_users",
+        "kind": 2,
+        "importPath": "20-sql.learning-sqlalchemy.src.db_ops",
+        "description": "20-sql.learning-sqlalchemy.src.db_ops",
+        "peekOfCode": "def query_users():\n    with Session() as session:\n        #stmt = select(Usuario).where(Usuario.apodo.is_(None)).order_by(Usuario.nombre_usuario) # Statement = stmt\n        stmt = select(Usuario) # Statement = stmt\n        stmt.order_by(Usuario.nombre_usuario.desc()) # Statement = stmt\n        results = session.execute(stmt).scalars().fetchall()\n        return results\ndef crear_grupo(name: str) -> Grupo:\n    with Session() as session:\n        with session.begin():",
+        "detail": "20-sql.learning-sqlalchemy.src.db_ops",
+        "documentation": {}
+    },
+    {
+        "label": "crear_grupo",
+        "kind": 2,
+        "importPath": "20-sql.learning-sqlalchemy.src.db_ops",
+        "description": "20-sql.learning-sqlalchemy.src.db_ops",
+        "peekOfCode": "def crear_grupo(name: str) -> Grupo:\n    with Session() as session:\n        with session.begin():\n            grupo = Grupo(nombre=name)\n            session.add(grupo)\n        return grupo\ndef get_group(name: str) -> Grupo:\n    with Session() as session:\n        grupo = session.execute(\n            select(Grupo).where(Grupo.nombre == name)",
+        "detail": "20-sql.learning-sqlalchemy.src.db_ops",
+        "documentation": {}
+    },
+    {
+        "label": "get_group",
+        "kind": 2,
+        "importPath": "20-sql.learning-sqlalchemy.src.db_ops",
+        "description": "20-sql.learning-sqlalchemy.src.db_ops",
+        "peekOfCode": "def get_group(name: str) -> Grupo:\n    with Session() as session:\n        grupo = session.execute(\n            select(Grupo).where(Grupo.nombre == name)\n        ).scalar_one()\n        return grupo\ndef get_user(username: str, session) -> Usuario | None: \n    stmt = (select(Usuario)\n            #.options(selectinload(Usuario.emails))\n            .where(Usuario.nombre_usuario == username))",
+        "detail": "20-sql.learning-sqlalchemy.src.db_ops",
+        "documentation": {}
+    },
+    {
+        "label": "get_user",
+        "kind": 2,
+        "importPath": "20-sql.learning-sqlalchemy.src.db_ops",
+        "description": "20-sql.learning-sqlalchemy.src.db_ops",
+        "peekOfCode": "def get_user(username: str, session) -> Usuario | None: \n    stmt = (select(Usuario)\n            #.options(selectinload(Usuario.emails))\n            .where(Usuario.nombre_usuario == username))\n    user = session.execute(stmt).scalar_one_or_none()\n    return user\ndef add_users():\n    u1 = Usuario(nombre_usuario=\"arilopez\",nombre=\"ariel lopez\")\n    u2 = Usuario(nombre_usuario=\"ckent\",nombre=\"clark kent\", apodo=\"Superman\")\n    u3 = Usuario(nombre_usuario=\"dialvarezs\",nombre=\"Diego Alvarez S.\", apodo=\"El Prime\")",
+        "detail": "20-sql.learning-sqlalchemy.src.db_ops",
+        "documentation": {}
+    },
+    {
+        "label": "add_users",
+        "kind": 2,
+        "importPath": "20-sql.learning-sqlalchemy.src.db_ops",
+        "description": "20-sql.learning-sqlalchemy.src.db_ops",
+        "peekOfCode": "def add_users():\n    u1 = Usuario(nombre_usuario=\"arilopez\",nombre=\"ariel lopez\")\n    u2 = Usuario(nombre_usuario=\"ckent\",nombre=\"clark kent\", apodo=\"Superman\")\n    u3 = Usuario(nombre_usuario=\"dialvarezs\",nombre=\"Diego Alvarez S.\", apodo=\"El Prime\")\n    with Session() as session:\n        session.add_all([u1, u2, u3])\n        print(u1.id)\n        session.commit()\n        print(u1.id)\ndef disable_user(username: str) -> None:",
+        "detail": "20-sql.learning-sqlalchemy.src.db_ops",
+        "documentation": {}
+    },
+    {
+        "label": "disable_user",
+        "kind": 2,
+        "importPath": "20-sql.learning-sqlalchemy.src.db_ops",
+        "description": "20-sql.learning-sqlalchemy.src.db_ops",
+        "peekOfCode": "def disable_user(username: str) -> None:\n    with Session() as session:\n        with session.begin():\n            stmt = (\n                update(Usuario)\n                .where(Usuario.nombre_usuario.in_(username))\n                .values(habilitado=False)\n            )\n            session.execute(stmt)\ndef turn_enabled_user(username: str, enabled: bool) -> None:",
+        "detail": "20-sql.learning-sqlalchemy.src.db_ops",
+        "documentation": {}
+    },
+    {
+        "label": "turn_enabled_user",
+        "kind": 2,
+        "importPath": "20-sql.learning-sqlalchemy.src.db_ops",
+        "description": "20-sql.learning-sqlalchemy.src.db_ops",
+        "peekOfCode": "def turn_enabled_user(username: str, enabled: bool) -> None:\n    with Session() as session:\n        with session.begin():\n            stmt = (\n                update(Usuario)\n                .where(Usuario.nombre_usuario.in_(username))\n                .values(habilitado=enabled)\n            )\n            session.execute(stmt)\ndef delete_user(username: str) -> None:",
+        "detail": "20-sql.learning-sqlalchemy.src.db_ops",
+        "documentation": {}
+    },
+    {
+        "label": "delete_user",
+        "kind": 2,
+        "importPath": "20-sql.learning-sqlalchemy.src.db_ops",
+        "description": "20-sql.learning-sqlalchemy.src.db_ops",
+        "peekOfCode": "def delete_user(username: str) -> None:\n    with Session() as session:\n        with session.begin():\n            user= session.execute(\n                select(Usuario).where(Usuario.nombre_usuario == username)\n            ).scalar_one()\n            session.delete(user)\n            session.commit()\ndef add_email_to_user(username: int, email: str) -> None:\n    with Session() as session:",
+        "detail": "20-sql.learning-sqlalchemy.src.db_ops",
+        "documentation": {}
+    },
+    {
+        "label": "add_email_to_user",
+        "kind": 2,
+        "importPath": "20-sql.learning-sqlalchemy.src.db_ops",
+        "description": "20-sql.learning-sqlalchemy.src.db_ops",
+        "peekOfCode": "def add_email_to_user(username: int, email: str) -> None:\n    with Session() as session:\n        with session.begin():\n            user = session.execute(\n                select(Usuario).where(Usuario.nombre_usuario == username)\n            ).scalar_one()\n            user.emails.append(Email(email=email))\ndef create_database():\n    Base.metadata.create_all(engine)",
+        "detail": "20-sql.learning-sqlalchemy.src.db_ops",
+        "documentation": {}
+    },
+    {
+        "label": "create_database",
+        "kind": 2,
+        "importPath": "20-sql.learning-sqlalchemy.src.db_ops",
+        "description": "20-sql.learning-sqlalchemy.src.db_ops",
+        "peekOfCode": "def create_database():\n    Base.metadata.create_all(engine)",
+        "detail": "20-sql.learning-sqlalchemy.src.db_ops",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 6,
+        "importPath": "20-sql.learning-sqlalchemy.src.models",
+        "description": "20-sql.learning-sqlalchemy.src.models",
+        "peekOfCode": "class Base(DeclarativeBase):\n    pass\nclass Grupo(Base):\n    __tablename__ = \"grupos\"\n    id: Mapped[int] = mapped_column(primary_key=True)\n    nombre: Mapped[str] = mapped_column(unique = True)\n    usuarios: Mapped[list[\"Usuario\"]] = relationship(\n        back_populates=\"grupos\",\n        secondary=\"usuarios_grupos\")\n    def __repr__(self) -> str:",
+        "detail": "20-sql.learning-sqlalchemy.src.models",
+        "documentation": {}
+    },
+    {
+        "label": "Grupo",
+        "kind": 6,
+        "importPath": "20-sql.learning-sqlalchemy.src.models",
+        "description": "20-sql.learning-sqlalchemy.src.models",
+        "peekOfCode": "class Grupo(Base):\n    __tablename__ = \"grupos\"\n    id: Mapped[int] = mapped_column(primary_key=True)\n    nombre: Mapped[str] = mapped_column(unique = True)\n    usuarios: Mapped[list[\"Usuario\"]] = relationship(\n        back_populates=\"grupos\",\n        secondary=\"usuarios_grupos\")\n    def __repr__(self) -> str:\n        return f\"Grupo(id={self.id}, nombre={self.nombre})\"\nclass UsuarioGrupo(Base):",
+        "detail": "20-sql.learning-sqlalchemy.src.models",
+        "documentation": {}
+    },
+    {
+        "label": "UsuarioGrupo",
+        "kind": 6,
+        "importPath": "20-sql.learning-sqlalchemy.src.models",
+        "description": "20-sql.learning-sqlalchemy.src.models",
+        "peekOfCode": "class UsuarioGrupo(Base):\n    __tablename__ = \"usuarios_grupos\"\n    usuario_id: Mapped[int] = mapped_column(ForeignKey(\"usuarios.id\"), primary_key=True)\n    grupo_id: Mapped[int] = mapped_column(ForeignKey(\"grupos.id\"), primary_key=True)\nclass Usuario(Base):\n    __tablename__ = \"usuarios\"\n    id: Mapped[int] = mapped_column(primary_key=True)\n    nombre_usuario: Mapped[str] = mapped_column(String(32), unique=True, index=True)\n    nombre: Mapped[str]\n    apodo: Mapped[Optional[str]]",
+        "detail": "20-sql.learning-sqlalchemy.src.models",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "kind": 6,
+        "importPath": "20-sql.learning-sqlalchemy.src.models",
+        "description": "20-sql.learning-sqlalchemy.src.models",
+        "peekOfCode": "class Usuario(Base):\n    __tablename__ = \"usuarios\"\n    id: Mapped[int] = mapped_column(primary_key=True)\n    nombre_usuario: Mapped[str] = mapped_column(String(32), unique=True, index=True)\n    nombre: Mapped[str]\n    apodo: Mapped[Optional[str]]\n    ultimo_login: Mapped[Optional[datetime]]\n    creado_en: Mapped[datetime] = mapped_column(default=datetime.now)\n    habilitado: Mapped[bool] = mapped_column(default=True, server_default=\"1\") # default es para python; sv_def es para postgres\n    emails: Mapped[list[\"Email\"]] = relationship(back_populates=\"usuario\")",
+        "detail": "20-sql.learning-sqlalchemy.src.models",
+        "documentation": {}
+    },
+    {
+        "label": "Email",
+        "kind": 6,
+        "importPath": "20-sql.learning-sqlalchemy.src.models",
+        "description": "20-sql.learning-sqlalchemy.src.models",
+        "peekOfCode": "class Email(Base):\n    __tablename__ = \"emails\"\n    id: Mapped[int] = mapped_column(primary_key=True)\n    email: Mapped[str]\n    usuario_id: Mapped[int] = mapped_column(ForeignKey(\"usuarios.id\"))\n    usuario: Mapped[\"Usuario\"] = relationship(back_populates=\"emails\")\n    def __repr__(self) -> str:\n        return f\"Email(id={self.id}, email={self.email}, usuario_id={self.usuario_id})\"",
+        "detail": "20-sql.learning-sqlalchemy.src.models",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "20-sql.learning-sqlalchemy.main",
+        "description": "20-sql.learning-sqlalchemy.main",
+        "peekOfCode": "def main():\n    create_database()\n    #add_email_to_user(username=\"ckent\", email=\"ckent@umag.cl\")\n    # grupo_admins =get_group(name=\"admins\")\n    # print(grupo_admins)\n    # with Session() as session:\n    #     usuario = get_user(username=\"kkuch\", session=session)\n    #     if usuario is not None:\n    #         print(usuario.emails)\n    #         usuario.grupos = [grupo_admins]",
+        "detail": "20-sql.learning-sqlalchemy.main",
+        "documentation": {}
+    },
+    {
+        "label": "fake",
+        "kind": 5,
+        "importPath": "20-sql.learning-sqlalchemy.main",
+        "description": "20-sql.learning-sqlalchemy.main",
+        "peekOfCode": "fake = Faker([\"es_ES\", \"en_US\"])\ndef main():\n    create_database()\n    #add_email_to_user(username=\"ckent\", email=\"ckent@umag.cl\")\n    # grupo_admins =get_group(name=\"admins\")\n    # print(grupo_admins)\n    # with Session() as session:\n    #     usuario = get_user(username=\"kkuch\", session=session)\n    #     if usuario is not None:\n    #         print(usuario.emails)",
+        "detail": "20-sql.learning-sqlalchemy.main",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 6,
+        "importPath": "20-sql.learning-sqlalchemy.oldmain",
+        "description": "20-sql.learning-sqlalchemy.oldmain",
+        "peekOfCode": "class Base(DeclarativeBase):\n    pass\nclass Usuario(Base):\n    __tablename__ = \"usuarios\"\n    id: Mapped[int] = mapped_column(primary_key=True)\n    nombre_usuario: Mapped[str] = mapped_column(String(32), unique=True, index=True)\n    nombre: Mapped[str]\n    apodo: Mapped[Optional[str]]\n    ultimo_login: Mapped[Optional[datetime]]\n    creado_en: Mapped[datetime] = mapped_column(default=datetime.now)",
+        "detail": "20-sql.learning-sqlalchemy.oldmain",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "kind": 6,
+        "importPath": "20-sql.learning-sqlalchemy.oldmain",
+        "description": "20-sql.learning-sqlalchemy.oldmain",
+        "peekOfCode": "class Usuario(Base):\n    __tablename__ = \"usuarios\"\n    id: Mapped[int] = mapped_column(primary_key=True)\n    nombre_usuario: Mapped[str] = mapped_column(String(32), unique=True, index=True)\n    nombre: Mapped[str]\n    apodo: Mapped[Optional[str]]\n    ultimo_login: Mapped[Optional[datetime]]\n    creado_en: Mapped[datetime] = mapped_column(default=datetime.now)\n    habilitado: Mapped[bool] = mapped_column(default=True, server_default=\"1\")\n    def __repr__(self) -> str:",
+        "detail": "20-sql.learning-sqlalchemy.oldmain",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "20-sql.learning-sqlalchemy.oldmain",
+        "description": "20-sql.learning-sqlalchemy.oldmain",
+        "peekOfCode": "def main(): \n    #Base.metadata.create_all(engine)\n    #add_users()\n    #query_users()\n    usuario = get_user(nombre_usuario=\"kkuch\")\n    print(usuario)\ndef query_users():\n    with Session() as session:\n        stmt = (\n            select(Usuario)",
+        "detail": "20-sql.learning-sqlalchemy.oldmain",
+        "documentation": {}
+    },
+    {
+        "label": "query_users",
+        "kind": 2,
+        "importPath": "20-sql.learning-sqlalchemy.oldmain",
+        "description": "20-sql.learning-sqlalchemy.oldmain",
+        "peekOfCode": "def query_users():\n    with Session() as session:\n        stmt = (\n            select(Usuario)\n            .where(Usuario.apodo.is_(None))\n            .order_by(Usuario.nombre_usuario.desc())\n            )\n        results = session.execute(stmt).scalars()\n        for row in results:\n            print(row)",
+        "detail": "20-sql.learning-sqlalchemy.oldmain",
+        "documentation": {}
+    },
+    {
+        "label": "get_user",
+        "kind": 2,
+        "importPath": "20-sql.learning-sqlalchemy.oldmain",
+        "description": "20-sql.learning-sqlalchemy.oldmain",
+        "peekOfCode": "def get_user(nombre_usuario: str) -> Usuario | None:\n    stmt = select(Usuario).where(Usuario.nombre_usuario == nombre_usuario)\n    with Session() as session:\n        return session.execute(stmt).scalar_one_or_none()\ndef add_users():\n    u1 = Usuario(nombre_usuario=\"kkuch\", nombre=\"Kurt Kusch\")\n    u2 = Usuario(nombre_usuario=\"ckent\", nombre=\"Clark Kent\", apodo=\"Superman\")\n    u3 = Usuario(nombre_usuario=\"jdoe\", nombre=\"Jane Doe\")\n    with Session() as session:\n        session.add_all([u1, u2, u3])",
+        "detail": "20-sql.learning-sqlalchemy.oldmain",
+        "documentation": {}
+    },
+    {
+        "label": "add_users",
+        "kind": 2,
+        "importPath": "20-sql.learning-sqlalchemy.oldmain",
+        "description": "20-sql.learning-sqlalchemy.oldmain",
+        "peekOfCode": "def add_users():\n    u1 = Usuario(nombre_usuario=\"kkuch\", nombre=\"Kurt Kusch\")\n    u2 = Usuario(nombre_usuario=\"ckent\", nombre=\"Clark Kent\", apodo=\"Superman\")\n    u3 = Usuario(nombre_usuario=\"jdoe\", nombre=\"Jane Doe\")\n    with Session() as session:\n        session.add_all([u1, u2, u3])\n        print(u1.id)\n        session.commit()\n        print(u1.id)\nif __name__ == \"__main__\":",
+        "detail": "20-sql.learning-sqlalchemy.oldmain",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "20-sql.learning-sqlalchemy.oldmain",
+        "description": "20-sql.learning-sqlalchemy.oldmain",
+        "peekOfCode": "engine = create_engine(\"postgresql+psycopg:///test_db_2025\", echo=False)\nSession = sessionmaker(engine)\nclass Base(DeclarativeBase):\n    pass\nclass Usuario(Base):\n    __tablename__ = \"usuarios\"\n    id: Mapped[int] = mapped_column(primary_key=True)\n    nombre_usuario: Mapped[str] = mapped_column(String(32), unique=True, index=True)\n    nombre: Mapped[str]\n    apodo: Mapped[Optional[str]]",
+        "detail": "20-sql.learning-sqlalchemy.oldmain",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "kind": 5,
+        "importPath": "20-sql.learning-sqlalchemy.oldmain",
+        "description": "20-sql.learning-sqlalchemy.oldmain",
+        "peekOfCode": "Session = sessionmaker(engine)\nclass Base(DeclarativeBase):\n    pass\nclass Usuario(Base):\n    __tablename__ = \"usuarios\"\n    id: Mapped[int] = mapped_column(primary_key=True)\n    nombre_usuario: Mapped[str] = mapped_column(String(32), unique=True, index=True)\n    nombre: Mapped[str]\n    apodo: Mapped[Optional[str]]\n    ultimo_login: Mapped[Optional[datetime]]",
+        "detail": "20-sql.learning-sqlalchemy.oldmain",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": "LEARNIN-LITESTAR..venv.bin.activate_this",
+        "description": "LEARNIN-LITESTAR..venv.bin.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"learnin-litestar\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.13/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": "LEARNIN-LITESTAR..venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": "LEARNIN-LITESTAR..venv.bin.activate_this",
+        "description": "LEARNIN-LITESTAR..venv.bin.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"learnin-litestar\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.13/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)",
+        "detail": "LEARNIN-LITESTAR..venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": "LEARNIN-LITESTAR..venv.bin.activate_this",
+        "description": "LEARNIN-LITESTAR..venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"learnin-litestar\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.13/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "detail": "LEARNIN-LITESTAR..venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": "LEARNIN-LITESTAR..venv.bin.activate_this",
+        "description": "LEARNIN-LITESTAR..venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"learnin-litestar\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.13/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "LEARNIN-LITESTAR..venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
+        "kind": 5,
+        "importPath": "LEARNIN-LITESTAR..venv.bin.activate_this",
+        "description": "LEARNIN-LITESTAR..venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"learnin-litestar\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.13/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "LEARNIN-LITESTAR..venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": "LEARNIN-LITESTAR..venv.bin.activate_this",
+        "description": "LEARNIN-LITESTAR..venv.bin.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"../lib/python3.13/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "LEARNIN-LITESTAR..venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": "LEARNIN-LITESTAR..venv.bin.activate_this",
+        "description": "LEARNIN-LITESTAR..venv.bin.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "LEARNIN-LITESTAR..venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": "LEARNIN-LITESTAR..venv.bin.activate_this",
+        "description": "LEARNIN-LITESTAR..venv.bin.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "LEARNIN-LITESTAR..venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": "LEARNIN-LITESTAR..venv.bin.activate_this",
+        "description": "LEARNIN-LITESTAR..venv.bin.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": "LEARNIN-LITESTAR..venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "TodoController",
+        "kind": 6,
+        "importPath": "LEARNIN-LITESTAR.app.controllers",
+        "description": "LEARNIN-LITESTAR.app.controllers",
+        "peekOfCode": "class TodoController(Controller):\n    path = \"/items\"\n    return_dto=TodoItemReadDTO\n    dependencies = {\n        \"todoitem_repo\": Provide(provide_todoitem_repo)\n    }\n    @get(\"/\")\n    async def list_items(self, todoitems_repo: TodoItemRepository, done: bool | None = None) -> Sequence[TodoItem]:\n        return todoitems_repo.list(ComparisonFilter(\"done\", \"eq\". done))\n    @post(\"/\", dto=TodoItemCreateDTO)",
+        "detail": "LEARNIN-LITESTAR.app.controllers",
+        "documentation": {}
+    },
+    {
+        "label": "TodoItemReadDTO",
+        "kind": 6,
+        "importPath": "LEARNIN-LITESTAR.app.dtos",
+        "description": "LEARNIN-LITESTAR.app.dtos",
+        "peekOfCode": "class TodoItemReadDTO(SQLAlchemyDTO[TodoItem]):\n    pass\nclass TodoItemCreateDTO(SQLAlchemyDTO[TodoItem]):\n    config = SQLAlchemyDTOConfig(exclude=[\"id\"])\nclass TodoItemUpdateDTO(SQLAlchemyDTO[TodoItem]):\n    config = SQLAlchemyDTOConfig(exclude=[\"id\"], partial=True, )",
+        "detail": "LEARNIN-LITESTAR.app.dtos",
+        "documentation": {}
+    },
+    {
+        "label": "TodoItemCreateDTO",
+        "kind": 6,
+        "importPath": "LEARNIN-LITESTAR.app.dtos",
+        "description": "LEARNIN-LITESTAR.app.dtos",
+        "peekOfCode": "class TodoItemCreateDTO(SQLAlchemyDTO[TodoItem]):\n    config = SQLAlchemyDTOConfig(exclude=[\"id\"])\nclass TodoItemUpdateDTO(SQLAlchemyDTO[TodoItem]):\n    config = SQLAlchemyDTOConfig(exclude=[\"id\"], partial=True, )",
+        "detail": "LEARNIN-LITESTAR.app.dtos",
+        "documentation": {}
+    },
+    {
+        "label": "TodoItemUpdateDTO",
+        "kind": 6,
+        "importPath": "LEARNIN-LITESTAR.app.dtos",
+        "description": "LEARNIN-LITESTAR.app.dtos",
+        "peekOfCode": "class TodoItemUpdateDTO(SQLAlchemyDTO[TodoItem]):\n    config = SQLAlchemyDTOConfig(exclude=[\"id\"], partial=True, )",
+        "detail": "LEARNIN-LITESTAR.app.dtos",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 6,
+        "importPath": "LEARNIN-LITESTAR.app.models",
+        "description": "LEARNIN-LITESTAR.app.models",
+        "peekOfCode": "class Base(DeclarativeBase):\n    pass\nclass TodoItem(Base):\n    __tablename__ = \"todo_items\"\n    id: Mapped[int] = mapped_column(primary_key=True)\n    title: Mapped[str]\n    done: Mapped[bool]",
+        "detail": "LEARNIN-LITESTAR.app.models",
+        "documentation": {}
+    },
+    {
+        "label": "TodoItem",
+        "kind": 6,
+        "importPath": "LEARNIN-LITESTAR.app.models",
+        "description": "LEARNIN-LITESTAR.app.models",
+        "peekOfCode": "class TodoItem(Base):\n    __tablename__ = \"todo_items\"\n    id: Mapped[int] = mapped_column(primary_key=True)\n    title: Mapped[str]\n    done: Mapped[bool]",
+        "detail": "LEARNIN-LITESTAR.app.models",
+        "documentation": {}
+    },
+    {
+        "label": "TodoItemRepository",
+        "kind": 6,
+        "importPath": "LEARNIN-LITESTAR.app.repositories",
+        "description": "LEARNIN-LITESTAR.app.repositories",
+        "peekOfCode": "class TodoItemRepository(SQLAlchemySyncRepository[TodoItem]):\n    model_type = TodoItem\nasync def provide_todoitem_repo(db_session: Session) -> TodoItemRepository:\n    return TodoItemRepository(session=db_session)",
+        "detail": "LEARNIN-LITESTAR.app.repositories",
+        "documentation": {}
+    },
+    {
+        "label": "my_test",
+        "kind": 2,
+        "importPath": "Python.mylib.utils",
+        "description": "Python.mylib.utils",
+        "peekOfCode": "def my_test():\n    print(\"Hola\")\na=10",
+        "detail": "Python.mylib.utils",
+        "documentation": {}
+    },
+    {
+        "label": "suma_numeros",
+        "kind": 2,
+        "importPath": "Python.basics",
+        "description": "Python.basics",
+        "peekOfCode": "def suma_numeros(n1, n2=5):\n    print(n1 + n2)\nsuma_numeros(n1=20, n2=20)\ndef aplica_fn(valores, fn):\n    return fn(valores)\ndef promedio(x):\n    return sum(x) / len(x)\nprint(aplica_fn([1, 2, 3, 4, 5], promedio ))\ndef test(a, b, **kwargs):\n    \"\"\"",
+        "detail": "Python.basics",
+        "documentation": {}
+    },
+    {
+        "label": "aplica_fn",
+        "kind": 2,
+        "importPath": "Python.basics",
+        "description": "Python.basics",
+        "peekOfCode": "def aplica_fn(valores, fn):\n    return fn(valores)\ndef promedio(x):\n    return sum(x) / len(x)\nprint(aplica_fn([1, 2, 3, 4, 5], promedio ))\ndef test(a, b, **kwargs):\n    \"\"\"\n    Esta es la funcion test\n    xD!\n    lolazo",
+        "detail": "Python.basics",
+        "documentation": {}
+    },
+    {
+        "label": "promedio",
+        "kind": 2,
+        "importPath": "Python.basics",
+        "description": "Python.basics",
+        "peekOfCode": "def promedio(x):\n    return sum(x) / len(x)\nprint(aplica_fn([1, 2, 3, 4, 5], promedio ))\ndef test(a, b, **kwargs):\n    \"\"\"\n    Esta es la funcion test\n    xD!\n    lolazo\n    :param a: Primer argumento\n    :param return: nada",
+        "detail": "Python.basics",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 2,
+        "importPath": "Python.basics",
+        "description": "Python.basics",
+        "peekOfCode": "def test(a, b, **kwargs):\n    \"\"\"\n    Esta es la funcion test\n    xD!\n    lolazo\n    :param a: Primer argumento\n    :param return: nada\n    \"\"\"\n    print(a, b, kwargs)\nmi_a = {\"a\":1, \"b\":2, \"c\": 3, \"d\": 5}",
+        "detail": "Python.basics",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "Python.basics",
+        "description": "Python.basics",
+        "peekOfCode": "x = 11 # No preocuparse del tamaño\nprint(x)\nif x < 10: #and, or & not\n    print(\"x es menor a 10\") #Este queda dentro del IF\nelif x < 10:\n    print(\"x es mayor o igual a 10\")\nelse:\n    print(\"X es mayor o igual\") #Este no\nmy_float = 3.5\nmy_bool = False # or True",
+        "detail": "Python.basics",
+        "documentation": {}
+    },
+    {
+        "label": "my_float",
+        "kind": 5,
+        "importPath": "Python.basics",
+        "description": "Python.basics",
+        "peekOfCode": "my_float = 3.5\nmy_bool = False # or True\nmy_str = \"Hola\" # String\nmy_none = None\nmy_str = 3.5\nprint(type(my_str))\n##Ciclo WHILE###\ni = 0\nwhile i < 5:\n   print (i)",
+        "detail": "Python.basics",
+        "documentation": {}
+    },
+    {
+        "label": "my_bool",
+        "kind": 5,
+        "importPath": "Python.basics",
+        "description": "Python.basics",
+        "peekOfCode": "my_bool = False # or True\nmy_str = \"Hola\" # String\nmy_none = None\nmy_str = 3.5\nprint(type(my_str))\n##Ciclo WHILE###\ni = 0\nwhile i < 5:\n   print (i)\n   i += 1",
+        "detail": "Python.basics",
+        "documentation": {}
+    },
+    {
+        "label": "my_str",
+        "kind": 5,
+        "importPath": "Python.basics",
+        "description": "Python.basics",
+        "peekOfCode": "my_str = \"Hola\" # String\nmy_none = None\nmy_str = 3.5\nprint(type(my_str))\n##Ciclo WHILE###\ni = 0\nwhile i < 5:\n   print (i)\n   i += 1\n##Ciclo FOR###",
+        "detail": "Python.basics",
+        "documentation": {}
+    },
+    {
+        "label": "my_none",
+        "kind": 5,
+        "importPath": "Python.basics",
+        "description": "Python.basics",
+        "peekOfCode": "my_none = None\nmy_str = 3.5\nprint(type(my_str))\n##Ciclo WHILE###\ni = 0\nwhile i < 5:\n   print (i)\n   i += 1\n##Ciclo FOR###\nfor x in range(5):",
+        "detail": "Python.basics",
+        "documentation": {}
+    },
+    {
+        "label": "my_str",
+        "kind": 5,
+        "importPath": "Python.basics",
+        "description": "Python.basics",
+        "peekOfCode": "my_str = 3.5\nprint(type(my_str))\n##Ciclo WHILE###\ni = 0\nwhile i < 5:\n   print (i)\n   i += 1\n##Ciclo FOR###\nfor x in range(5):\n  if x < 3:",
+        "detail": "Python.basics",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "Python.basics",
+        "description": "Python.basics",
+        "peekOfCode": "i = 0\nwhile i < 5:\n   print (i)\n   i += 1\n##Ciclo FOR###\nfor x in range(5):\n  if x < 3:\n      continue\n  print(x)\nmi_lista = [1, \"2\", 4.5 ,3 ,5, 5, [1, 2, 3]]",
+        "detail": "Python.basics",
+        "documentation": {}
+    },
+    {
+        "label": "mi_lista",
+        "kind": 5,
+        "importPath": "Python.basics",
+        "description": "Python.basics",
+        "peekOfCode": "mi_lista = [1, \"2\", 4.5 ,3 ,5, 5, [1, 2, 3]]\nmi_lista.append(\"A\") # append inserta al final de la lista\nmi_lista.insert(1, \"B\") #agrega en una posicion especificada\nmi_lista.remove(\"B\") # eliminar un elemento\nmi_lista.pop(4) # ELimina un elemento en la posicion indicata\nmi_lista.extend([10, 20, 30])\nprint(mi_lista)\nprint(mi_lista[::-1]) # Invierte la lista\nfor e in mi_lista:\n    print(e)",
+        "detail": "Python.basics",
+        "documentation": {}
+    },
+    {
+        "label": "mi_tupla",
+        "kind": 5,
+        "importPath": "Python.basics",
+        "description": "Python.basics",
+        "peekOfCode": "mi_tupla = (1,2,3,4,5) #Las tuplas no se pueden modificar\nprint(mi_tupla[:-2])\nfor e in mi_tupla:\n    print(e)\nmi_conjunto = {1, 2, 3, 4, 5}\nmi_conjunto.add((1,2))\nmi_conjunto.add(9)\nmi_conjunto = mi_conjunto - ({1,20,30,4})\nprint(mi_conjunto)\nprint(10 in mi_conjunto)",
+        "detail": "Python.basics",
+        "documentation": {}
+    },
+    {
+        "label": "mi_conjunto",
+        "kind": 5,
+        "importPath": "Python.basics",
+        "description": "Python.basics",
+        "peekOfCode": "mi_conjunto = {1, 2, 3, 4, 5}\nmi_conjunto.add((1,2))\nmi_conjunto.add(9)\nmi_conjunto = mi_conjunto - ({1,20,30,4})\nprint(mi_conjunto)\nprint(10 in mi_conjunto)\nmi_diccionario = {\"nombre\": \"Ariel\", \"edad\": 21}\nmi_diccionario[\"edad\"] = 25\nprint(mi_diccionario.get(\"apellido\", \"desconocido\")) #se puede dejar un default en caso de que no exista el get\nprint (mi_diccionario[\"edad\"])",
+        "detail": "Python.basics",
+        "documentation": {}
+    },
+    {
+        "label": "mi_conjunto",
+        "kind": 5,
+        "importPath": "Python.basics",
+        "description": "Python.basics",
+        "peekOfCode": "mi_conjunto = mi_conjunto - ({1,20,30,4})\nprint(mi_conjunto)\nprint(10 in mi_conjunto)\nmi_diccionario = {\"nombre\": \"Ariel\", \"edad\": 21}\nmi_diccionario[\"edad\"] = 25\nprint(mi_diccionario.get(\"apellido\", \"desconocido\")) #se puede dejar un default en caso de que no exista el get\nprint (mi_diccionario[\"edad\"])\nprint(mi_diccionario.keys())\nprint(mi_diccionario.items())\nfor k, v in mi_diccionario.items():",
+        "detail": "Python.basics",
+        "documentation": {}
+    },
+    {
+        "label": "mi_diccionario",
+        "kind": 5,
+        "importPath": "Python.basics",
+        "description": "Python.basics",
+        "peekOfCode": "mi_diccionario = {\"nombre\": \"Ariel\", \"edad\": 21}\nmi_diccionario[\"edad\"] = 25\nprint(mi_diccionario.get(\"apellido\", \"desconocido\")) #se puede dejar un default en caso de que no exista el get\nprint (mi_diccionario[\"edad\"])\nprint(mi_diccionario.keys())\nprint(mi_diccionario.items())\nfor k, v in mi_diccionario.items():\n    print(k, v)\nfor i, e in enumerate(mi_lista):\n    print(i, e)",
+        "detail": "Python.basics",
+        "documentation": {}
+    },
+    {
+        "label": "mi_diccionario[\"edad\"]",
+        "kind": 5,
+        "importPath": "Python.basics",
+        "description": "Python.basics",
+        "peekOfCode": "mi_diccionario[\"edad\"] = 25\nprint(mi_diccionario.get(\"apellido\", \"desconocido\")) #se puede dejar un default en caso de que no exista el get\nprint (mi_diccionario[\"edad\"])\nprint(mi_diccionario.keys())\nprint(mi_diccionario.items())\nfor k, v in mi_diccionario.items():\n    print(k, v)\nfor i, e in enumerate(mi_lista):\n    print(i, e)\nmis_numeros = [1, 4, 5, 10, 12, 15]",
+        "detail": "Python.basics",
+        "documentation": {}
+    },
+    {
+        "label": "mis_numeros",
+        "kind": 5,
+        "importPath": "Python.basics",
+        "description": "Python.basics",
+        "peekOfCode": "mis_numeros = [1, 4, 5, 10, 12, 15]\nmis_cuadrados = [n*n for n in mis_numeros if n % 2 == 0] \nprint(mis_cuadrados)\nletras = [\"A\", \"B\", \"C\"]\nconteo = {l: 0 for l in letras}\nprint(conteo)\nmi_texto = \"Hol a mundo\"\npalabras = mi_texto.split()\nprint(\"*\".join(palabras))\nnombre = \"diego\"",
+        "detail": "Python.basics",
+        "documentation": {}
+    },
+    {
+        "label": "mis_cuadrados",
+        "kind": 5,
+        "importPath": "Python.basics",
+        "description": "Python.basics",
+        "peekOfCode": "mis_cuadrados = [n*n for n in mis_numeros if n % 2 == 0] \nprint(mis_cuadrados)\nletras = [\"A\", \"B\", \"C\"]\nconteo = {l: 0 for l in letras}\nprint(conteo)\nmi_texto = \"Hol a mundo\"\npalabras = mi_texto.split()\nprint(\"*\".join(palabras))\nnombre = \"diego\"\nmi_fstring = f\"Ariel dijo {mi_texto}.\\n{2**8}\"",
+        "detail": "Python.basics",
+        "documentation": {}
+    },
+    {
+        "label": "letras",
+        "kind": 5,
+        "importPath": "Python.basics",
+        "description": "Python.basics",
+        "peekOfCode": "letras = [\"A\", \"B\", \"C\"]\nconteo = {l: 0 for l in letras}\nprint(conteo)\nmi_texto = \"Hol a mundo\"\npalabras = mi_texto.split()\nprint(\"*\".join(palabras))\nnombre = \"diego\"\nmi_fstring = f\"Ariel dijo {mi_texto}.\\n{2**8}\"\nprint(mi_fstring)\ndef suma_numeros(n1, n2=5):",
+        "detail": "Python.basics",
+        "documentation": {}
+    },
+    {
+        "label": "conteo",
+        "kind": 5,
+        "importPath": "Python.basics",
+        "description": "Python.basics",
+        "peekOfCode": "conteo = {l: 0 for l in letras}\nprint(conteo)\nmi_texto = \"Hol a mundo\"\npalabras = mi_texto.split()\nprint(\"*\".join(palabras))\nnombre = \"diego\"\nmi_fstring = f\"Ariel dijo {mi_texto}.\\n{2**8}\"\nprint(mi_fstring)\ndef suma_numeros(n1, n2=5):\n    print(n1 + n2)",
+        "detail": "Python.basics",
+        "documentation": {}
+    },
+    {
+        "label": "mi_texto",
+        "kind": 5,
+        "importPath": "Python.basics",
+        "description": "Python.basics",
+        "peekOfCode": "mi_texto = \"Hol a mundo\"\npalabras = mi_texto.split()\nprint(\"*\".join(palabras))\nnombre = \"diego\"\nmi_fstring = f\"Ariel dijo {mi_texto}.\\n{2**8}\"\nprint(mi_fstring)\ndef suma_numeros(n1, n2=5):\n    print(n1 + n2)\nsuma_numeros(n1=20, n2=20)\ndef aplica_fn(valores, fn):",
+        "detail": "Python.basics",
+        "documentation": {}
+    },
+    {
+        "label": "palabras",
+        "kind": 5,
+        "importPath": "Python.basics",
+        "description": "Python.basics",
+        "peekOfCode": "palabras = mi_texto.split()\nprint(\"*\".join(palabras))\nnombre = \"diego\"\nmi_fstring = f\"Ariel dijo {mi_texto}.\\n{2**8}\"\nprint(mi_fstring)\ndef suma_numeros(n1, n2=5):\n    print(n1 + n2)\nsuma_numeros(n1=20, n2=20)\ndef aplica_fn(valores, fn):\n    return fn(valores)",
+        "detail": "Python.basics",
+        "documentation": {}
+    },
+    {
+        "label": "nombre",
+        "kind": 5,
+        "importPath": "Python.basics",
+        "description": "Python.basics",
+        "peekOfCode": "nombre = \"diego\"\nmi_fstring = f\"Ariel dijo {mi_texto}.\\n{2**8}\"\nprint(mi_fstring)\ndef suma_numeros(n1, n2=5):\n    print(n1 + n2)\nsuma_numeros(n1=20, n2=20)\ndef aplica_fn(valores, fn):\n    return fn(valores)\ndef promedio(x):\n    return sum(x) / len(x)",
+        "detail": "Python.basics",
+        "documentation": {}
+    },
+    {
+        "label": "mi_fstring",
+        "kind": 5,
+        "importPath": "Python.basics",
+        "description": "Python.basics",
+        "peekOfCode": "mi_fstring = f\"Ariel dijo {mi_texto}.\\n{2**8}\"\nprint(mi_fstring)\ndef suma_numeros(n1, n2=5):\n    print(n1 + n2)\nsuma_numeros(n1=20, n2=20)\ndef aplica_fn(valores, fn):\n    return fn(valores)\ndef promedio(x):\n    return sum(x) / len(x)\nprint(aplica_fn([1, 2, 3, 4, 5], promedio ))",
+        "detail": "Python.basics",
+        "documentation": {}
+    },
+    {
+        "label": "mi_a",
+        "kind": 5,
+        "importPath": "Python.basics",
+        "description": "Python.basics",
+        "peekOfCode": "mi_a = {\"a\":1, \"b\":2, \"c\": 3, \"d\": 5}\ntest(**mi_a)",
+        "detail": "Python.basics",
+        "documentation": {}
+    },
+    {
+        "label": "valor_texto",
+        "kind": 5,
+        "importPath": "Python.exceptions",
+        "description": "Python.exceptions",
+        "peekOfCode": "valor_texto = \"7\"\ntry:\n    x = int(valor_texto) / 0\nexcept ValueError:\n    print(\"Ocurrió un error de valor.\")\nexcept ZeroDivisionError as e:\n    print(f\"Ocurrió una división por cero.{repr(e)}\")\nexcept (ValueError, ZeroDivisionError) as e:\n    print(f\"Ocurrió una división por cero.{repr(e)}\")\nprint(\"Hola!\")",
+        "detail": "Python.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "calculadora",
+        "kind": 2,
+        "importPath": "Python.exercises",
+        "description": "Python.exercises",
+        "peekOfCode": "def calculadora():\n    a = float(input(\"Ingrese el primer número: \"))\n    b = float(input(\"Ingrese el segundo número: \"))\n    operacion = input(\"Ingrese la operación (+, -, *, /): \")\n    if operacion == '+':\n        resultado = a + b\n    elif operacion == '-':\n        resultado = a - b\n    elif operacion == '*':\n        resultado = a * b",
+        "detail": "Python.exercises",
+        "documentation": {}
+    },
+    {
+        "label": "contar_palabras",
+        "kind": 2,
+        "importPath": "Python.exercises",
+        "description": "Python.exercises",
+        "peekOfCode": "def contar_palabras(texto):\n    palabras = texto.split()\n    conteo = {palabra: i+1 for i, palabra in enumerate(palabras)}\n    return conteo\n# Función para verificar si una palabra es un palíndromo\ndef palindromo():\n    texto = input(\"Ingrese una palabra o frase: \").replace(\" \", \"\").lower()\n    if texto == texto[::-1]:\n        print(\"Es un palíndromo.\")\n    else:",
+        "detail": "Python.exercises",
+        "documentation": {}
+    },
+    {
+        "label": "palindromo",
+        "kind": 2,
+        "importPath": "Python.exercises",
+        "description": "Python.exercises",
+        "peekOfCode": "def palindromo():\n    texto = input(\"Ingrese una palabra o frase: \").replace(\" \", \"\").lower()\n    if texto == texto[::-1]:\n        print(\"Es un palíndromo.\")\n    else:\n        print(\"No es un palíndromo.\")\n# Función para generar una contraseña aleatoria\ndef generar_contraseña(longitud, mayusculas, numeros, especiales):\n    minúsculas = string.ascii_lowercase\n    mayúsculas = string.ascii_uppercase if mayusculas else ''",
+        "detail": "Python.exercises",
+        "documentation": {}
+    },
+    {
+        "label": "generar_contraseña",
+        "kind": 2,
+        "importPath": "Python.exercises",
+        "description": "Python.exercises",
+        "peekOfCode": "def generar_contraseña(longitud, mayusculas, numeros, especiales):\n    minúsculas = string.ascii_lowercase\n    mayúsculas = string.ascii_uppercase if mayusculas else ''\n    dígitos = string.digits if numeros else ''\n    símbolos = string.punctuation if especiales else ''\n    caracteres = minúsculas + mayúsculas + dígitos + símbolos\n    if not caracteres:\n        raise ValueError(\"Debe incluir al menos un tipo de carácter en la contraseña.\")\n    contraseña = ''.join(random.choice(caracteres) for _ in range(longitud))\n    return contraseña",
+        "detail": "Python.exercises",
+        "documentation": {}
+    },
+    {
+        "label": "fibonacci_recursivo",
+        "kind": 2,
+        "importPath": "Python.exercises",
+        "description": "Python.exercises",
+        "peekOfCode": "def fibonacci_recursivo(n):\n    if n <= 1:\n        return n\n    else:\n        return fibonacci_recursivo(n-1) + fibonacci_recursivo(n-2)\ndef generar_fibonacci_recursivo(n):\n    secuencia = []\n    for i in range(n):\n        secuencia.append(fibonacci_recursivo(i))\n    return secuencia",
+        "detail": "Python.exercises",
+        "documentation": {}
+    },
+    {
+        "label": "generar_fibonacci_recursivo",
+        "kind": 2,
+        "importPath": "Python.exercises",
+        "description": "Python.exercises",
+        "peekOfCode": "def generar_fibonacci_recursivo(n):\n    secuencia = []\n    for i in range(n):\n        secuencia.append(fibonacci_recursivo(i))\n    return secuencia\n# Función para contar vocales y consonantes\ndef contar_vocales_consonantes(cadena):\n    vocales = \"aeiouáéíóúüAEIOUÁÉÍÓÚÜ\"\n    consonantes = \"bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ\"\n    num_vocales = sum(1 for letra in cadena if letra in vocales)",
+        "detail": "Python.exercises",
+        "documentation": {}
+    },
+    {
+        "label": "contar_vocales_consonantes",
+        "kind": 2,
+        "importPath": "Python.exercises",
+        "description": "Python.exercises",
+        "peekOfCode": "def contar_vocales_consonantes(cadena):\n    vocales = \"aeiouáéíóúüAEIOUÁÉÍÓÚÜ\"\n    consonantes = \"bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ\"\n    num_vocales = sum(1 for letra in cadena if letra in vocales)\n    num_consonantes = sum(1 for letra in cadena if letra in consonantes)\n    return num_vocales, num_consonantes\n# Función para adivinar el número\ndef adivina_el_numero():\n    numero_secreto = random.randint(1, 100)\n    intentos = 0",
+        "detail": "Python.exercises",
+        "documentation": {}
+    },
+    {
+        "label": "adivina_el_numero",
+        "kind": 2,
+        "importPath": "Python.exercises",
+        "description": "Python.exercises",
+        "peekOfCode": "def adivina_el_numero():\n    numero_secreto = random.randint(1, 100)\n    intentos = 0\n    adivinado = False\n    print(\"He elegido un número entre 1 y 100.\\n\")\n    while not adivinado:\n        try:\n            intento = int(input(\"Introduce tu número: \"))\n            intentos += 1\n            if intento < numero_secreto:",
+        "detail": "Python.exercises",
+        "documentation": {}
+    },
+    {
+        "label": "menu",
+        "kind": 2,
+        "importPath": "Python.exercises",
+        "description": "Python.exercises",
+        "peekOfCode": "def menu():\n    while True:\n        print(\"\\nMenú de opciones:\")\n        print(\"1. Calculadora\")\n        print(\"2. Contar palabras\")\n        print(\"3. Verificar palíndromo\")\n        print(\"4. Generar contraseña aleatoria\")\n        print(\"5. Generar secuencia de Fibonacci (recursivo)\")\n        print(\"6. Contar vocales y consonantes\")\n        print(\"7. Adivina el número\")",
+        "detail": "Python.exercises",
+        "documentation": {}
+    },
+    {
+        "label": "Animal",
+        "kind": 6,
+        "importPath": "Python.poo",
+        "description": "Python.poo",
+        "peekOfCode": "class Animal:\n    def __init__(self, especie, edad, color):\n        self.especie = especie\n        self.edad = edad\n        self.color = color\n    def hacer_sonido(self):\n        return f\"El animal de especie {self.especie} hace un sonido\"\n    def describir(self):\n        return f\"Este es un {self.especie} {self.color} de {self.edad} años\"\nanimal_1 = Animal(especie=\"perro\", edad=5, color=\"blanco\")",
+        "detail": "Python.poo",
+        "documentation": {}
+    },
+    {
+        "label": "Perro",
+        "kind": 6,
+        "importPath": "Python.poo",
+        "description": "Python.poo",
+        "peekOfCode": "class Perro(Animal):\n    def __init__(self, edad, color):\n        super().__init__(especie=\"perro\", edad=edad, color=color)\n    def hacer_sonido(self, sonido):\n        print(f\"EL animal de especie{self.especie} hace {sonido}\")\n    def __add__(self, other):\n        print(\"Estas tratando de añadir un perro\")\nclass AnimalEntrenado(Animal):\n    def __init__(self, nivel_de_entrenamiento, especie, edad, color=\"negro\"):\n        super().__init__(especie, edad, color)",
+        "detail": "Python.poo",
+        "documentation": {}
+    },
+    {
+        "label": "AnimalEntrenado",
+        "kind": 6,
+        "importPath": "Python.poo",
+        "description": "Python.poo",
+        "peekOfCode": "class AnimalEntrenado(Animal):\n    def __init__(self, nivel_de_entrenamiento, especie, edad, color=\"negro\"):\n        super().__init__(especie, edad, color)\n        self.nivel_de_entrenamiento = nivel_de_entrenamiento\n    def hacer_truco(self):\n        if self.nivel_de_entrenamiento == 1:\n            print(\"Dar la pata\")\n        if self.nivel_de_entrenamiento == 2:\n            print(\"Hacerse el muerto\")\n        if self.nivel_de_entrenamiento == 3:",
+        "detail": "Python.poo",
+        "documentation": {}
+    },
+    {
+        "label": "Mascota",
+        "kind": 6,
+        "importPath": "Python.poo",
+        "description": "Python.poo",
+        "peekOfCode": "class Mascota(Animal):\n    def __init__(self, nombre, especie, edad, color=\"negro\"):\n        super().__init__(especie, edad, color)\n        self.nombre = nombre\n    def __repr__(self):\n        return f\"Mascota(nombre={self.nombre}, especie={self.especie}, edad={self.edad}, color={self.color})\"\n    def presentar(self):\n        print(f\"Hola, esta es mi mascota {self.nombre}\")\nclass MascotaEntrenada(Mascota, AnimalEntrenado):\n    def __init__(self, nombre, nivel_de_entrenamiento, especie, edad, color=\"negro\"):",
+        "detail": "Python.poo",
+        "documentation": {}
+    },
+    {
+        "label": "MascotaEntrenada",
+        "kind": 6,
+        "importPath": "Python.poo",
+        "description": "Python.poo",
+        "peekOfCode": "class MascotaEntrenada(Mascota, AnimalEntrenado):\n    def __init__(self, nombre, nivel_de_entrenamiento, especie, edad, color=\"negro\"):\n        Mascota.__init__(self, nombre, especie, edad, color)\n        AnimalEntrenado.__init__(self, nivel_de_entrenamiento, especie, edad, color)\n    def __repr__(self):\n        # Aquí incluimos el nivel de entrenamiento en la representación\n        return f\"MascotaEntrenada(nombre={self.nombre}, especie={self.especie}, edad={self.edad}, color={self.color}, nivel_de_entrenamiento={self.nivel_de_entrenamiento})\"\nperro = Animal(especie=\"perro\", edad=5, color=\"negro\")\nbobby = Mascota(nombre=\"Bobby\", especie=\"perro\", edad=1, color=\"blanco\")\n# print(bobby.hacer_sonido())",
+        "detail": "Python.poo",
+        "documentation": {}
+    },
+    {
+        "label": "Coordenada",
+        "kind": 6,
+        "importPath": "Python.poo",
+        "description": "Python.poo",
+        "peekOfCode": "class Coordenada:\n    def __init__(self, x, y):\n        self.x = x\n        self.y = y\n    def __repr__(self):\n        return f\"Coordenada(x={self.x}, y={self.y})\"\n    def __add__(self, other):\n        return Coordenada(x=self.x + other.x, y=self.y + other.y)\n    def __eq__(self, other):\n        return self.x == other.x and self.y == other.y",
+        "detail": "Python.poo",
+        "documentation": {}
+    },
+    {
+        "label": "Punto",
+        "kind": 6,
+        "importPath": "Python.poo",
+        "description": "Python.poo",
+        "peekOfCode": "class Punto:\n    x: numeric\n    y: numeric\n    def __post_init__(self):\n        if self.x < 0 or self.y < 0:\n            raise ValueError(\"Las coordenadas no pueden ser negativas\")\n    def __add__(self, other):\n        return Punto(x=self.x + other.x, y=self.y + other.y)\n    def __eq__(self, other):\n        return self.x == other.x and self.y == other.y",
+        "detail": "Python.poo",
+        "documentation": {}
+    },
+    {
+        "label": "sumar_numero",
+        "kind": 2,
+        "importPath": "Python.poo",
+        "description": "Python.poo",
+        "peekOfCode": "def sumar_numero(numeros: list[int|float]) -> float:\n    return sum(numeros)\ndef contar_ocurrencias(palabras: list[str]) -> dict[str, int]:\n    resultado = {}\n    for palabra in palabras:\n        resultado[palabra] = resultado.get(palabra, 0) + 1\n    return resultado\ndef buscar_elemento(lista: list[int], elemento: int) -> int| None:\n    try:\n        return lista.index(elemento)",
+        "detail": "Python.poo",
+        "documentation": {}
+    },
+    {
+        "label": "contar_ocurrencias",
+        "kind": 2,
+        "importPath": "Python.poo",
+        "description": "Python.poo",
+        "peekOfCode": "def contar_ocurrencias(palabras: list[str]) -> dict[str, int]:\n    resultado = {}\n    for palabra in palabras:\n        resultado[palabra] = resultado.get(palabra, 0) + 1\n    return resultado\ndef buscar_elemento(lista: list[int], elemento: int) -> int| None:\n    try:\n        return lista.index(elemento)\n    except ValueError:\n        return None",
+        "detail": "Python.poo",
+        "documentation": {}
+    },
+    {
+        "label": "buscar_elemento",
+        "kind": 2,
+        "importPath": "Python.poo",
+        "description": "Python.poo",
+        "peekOfCode": "def buscar_elemento(lista: list[int], elemento: int) -> int| None:\n    try:\n        return lista.index(elemento)\n    except ValueError:\n        return None\n@dataclass(eq= True, order=True, frozen=True)\nclass Punto:\n    x: numeric\n    y: numeric\n    def __post_init__(self):",
+        "detail": "Python.poo",
+        "documentation": {}
+    },
+    {
+        "label": "animal_1",
+        "kind": 5,
+        "importPath": "Python.poo",
+        "description": "Python.poo",
+        "peekOfCode": "animal_1 = Animal(especie=\"perro\", edad=5, color=\"blanco\")\nanimal_1.hacer_sonido()  # El animal de especie perro hace un sonido\nanimal_1 = Animal(especie=\"perro\", edad=5, color=\"blanco\")\nanimal_1.hacer_sonido()  # El animal de especie perro hace un sonido\nclass Perro(Animal):\n    def __init__(self, edad, color):\n        super().__init__(especie=\"perro\", edad=edad, color=color)\n    def hacer_sonido(self, sonido):\n        print(f\"EL animal de especie{self.especie} hace {sonido}\")\n    def __add__(self, other):",
+        "detail": "Python.poo",
+        "documentation": {}
+    },
+    {
+        "label": "animal_1",
+        "kind": 5,
+        "importPath": "Python.poo",
+        "description": "Python.poo",
+        "peekOfCode": "animal_1 = Animal(especie=\"perro\", edad=5, color=\"blanco\")\nanimal_1.hacer_sonido()  # El animal de especie perro hace un sonido\nclass Perro(Animal):\n    def __init__(self, edad, color):\n        super().__init__(especie=\"perro\", edad=edad, color=color)\n    def hacer_sonido(self, sonido):\n        print(f\"EL animal de especie{self.especie} hace {sonido}\")\n    def __add__(self, other):\n        print(\"Estas tratando de añadir un perro\")\nclass AnimalEntrenado(Animal):",
+        "detail": "Python.poo",
+        "documentation": {}
+    },
+    {
+        "label": "perro_1",
+        "kind": 5,
+        "importPath": "Python.poo",
+        "description": "Python.poo",
+        "peekOfCode": "perro_1 = Perro(color=\"gris\", edad=7)\n# print(perro_1.hacer_sonido())  # Salida: El perro ladra\nprint(perro_1.describir())  # Salida: Este es un perro gris de 7 años\nclass Mascota(Animal):\n    def __init__(self, nombre, especie, edad, color=\"negro\"):\n        super().__init__(especie, edad, color)\n        self.nombre = nombre\n    def __repr__(self):\n        return f\"Mascota(nombre={self.nombre}, especie={self.especie}, edad={self.edad}, color={self.color})\"\n    def presentar(self):",
+        "detail": "Python.poo",
+        "documentation": {}
+    },
+    {
+        "label": "perro",
+        "kind": 5,
+        "importPath": "Python.poo",
+        "description": "Python.poo",
+        "peekOfCode": "perro = Animal(especie=\"perro\", edad=5, color=\"negro\")\nbobby = Mascota(nombre=\"Bobby\", especie=\"perro\", edad=1, color=\"blanco\")\n# print(bobby.hacer_sonido())\n# bobby.presentar()\njack = MascotaEntrenada(\n    nombre=\"Jack\", nivel_de_entrenamiento=3, especie=\"perro\", edad=8\n)\n# print(jack)\n# jack.hacer_truco()\nclass Coordenada:",
+        "detail": "Python.poo",
+        "documentation": {}
+    },
+    {
+        "label": "bobby",
+        "kind": 5,
+        "importPath": "Python.poo",
+        "description": "Python.poo",
+        "peekOfCode": "bobby = Mascota(nombre=\"Bobby\", especie=\"perro\", edad=1, color=\"blanco\")\n# print(bobby.hacer_sonido())\n# bobby.presentar()\njack = MascotaEntrenada(\n    nombre=\"Jack\", nivel_de_entrenamiento=3, especie=\"perro\", edad=8\n)\n# print(jack)\n# jack.hacer_truco()\nclass Coordenada:\n    def __init__(self, x, y):",
+        "detail": "Python.poo",
+        "documentation": {}
+    },
+    {
+        "label": "jack",
+        "kind": 5,
+        "importPath": "Python.poo",
+        "description": "Python.poo",
+        "peekOfCode": "jack = MascotaEntrenada(\n    nombre=\"Jack\", nivel_de_entrenamiento=3, especie=\"perro\", edad=8\n)\n# print(jack)\n# jack.hacer_truco()\nclass Coordenada:\n    def __init__(self, x, y):\n        self.x = x\n        self.y = y\n    def __repr__(self):",
+        "detail": "Python.poo",
+        "documentation": {}
+    },
+    {
+        "label": "c1",
+        "kind": 5,
+        "importPath": "Python.poo",
+        "description": "Python.poo",
+        "peekOfCode": "c1 = Coordenada(3, 5)\nc2 = Coordenada(4, 5)\nprint(c1 + c2)\nprint(c1 == c2)\nprint(c1.distancia(c2))\ndef sumar_numero(numeros: list[int|float]) -> float:\n    return sum(numeros)\ndef contar_ocurrencias(palabras: list[str]) -> dict[str, int]:\n    resultado = {}\n    for palabra in palabras:",
+        "detail": "Python.poo",
+        "documentation": {}
+    },
+    {
+        "label": "c2",
+        "kind": 5,
+        "importPath": "Python.poo",
+        "description": "Python.poo",
+        "peekOfCode": "c2 = Coordenada(4, 5)\nprint(c1 + c2)\nprint(c1 == c2)\nprint(c1.distancia(c2))\ndef sumar_numero(numeros: list[int|float]) -> float:\n    return sum(numeros)\ndef contar_ocurrencias(palabras: list[str]) -> dict[str, int]:\n    resultado = {}\n    for palabra in palabras:\n        resultado[palabra] = resultado.get(palabra, 0) + 1",
+        "detail": "Python.poo",
+        "documentation": {}
+    }
+]
