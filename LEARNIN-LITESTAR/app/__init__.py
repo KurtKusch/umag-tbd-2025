@@ -1,6 +1,6 @@
 from litestar import Litestar
 from litestar.plugins.sqlalchemy import SQLAlchemyPlugin, SQLAlchemySyncConfig
-from app.controllers import TodoController, hello_world
+from app.controllers import TodoController, hello_world, UserController
 from app.models import Base
 
 db_config = SQLAlchemySyncConfig(
@@ -10,5 +10,5 @@ db_config = SQLAlchemySyncConfig(
 slqa_plugin = SQLAlchemyPlugin(config = db_config)
 
 app = Litestar(
-    route_handlers=[hello_world, TodoController],plugins = [slqa_plugin],debug=True
+    route_handlers=[hello_world, TodoController, UserController],plugins = [slqa_plugin],debug=True
 )

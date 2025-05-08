@@ -44,7 +44,23 @@
         "documentation": {}
     },
     {
+        "label": "auto",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
         "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -116,6 +132,14 @@
         "documentation": {}
     },
     {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "NoResultFound",
         "importPath": "sqlalchemy.exc",
         "description": "sqlalchemy.exc",
@@ -164,6 +188,14 @@
         "documentation": {}
     },
     {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
         "label": "Session",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
@@ -189,6 +221,30 @@
     },
     {
         "label": "TodoItemUpdateDTO",
+        "importPath": "app.dtos",
+        "description": "app.dtos",
+        "isExtraImport": true,
+        "detail": "app.dtos",
+        "documentation": {}
+    },
+    {
+        "label": "UserReadDTO",
+        "importPath": "app.dtos",
+        "description": "app.dtos",
+        "isExtraImport": true,
+        "detail": "app.dtos",
+        "documentation": {}
+    },
+    {
+        "label": "UserReadFullDTO",
+        "importPath": "app.dtos",
+        "description": "app.dtos",
+        "isExtraImport": true,
+        "detail": "app.dtos",
+        "documentation": {}
+    },
+    {
+        "label": "TodoItemFullReadDTO",
         "importPath": "app.dtos",
         "description": "app.dtos",
         "isExtraImport": true,
@@ -228,7 +284,31 @@
         "documentation": {}
     },
     {
+        "label": "provide_users_repo",
+        "importPath": "app.repositories",
+        "description": "app.repositories",
+        "isExtraImport": true,
+        "detail": "app.repositories",
+        "documentation": {}
+    },
+    {
+        "label": "UserRepository",
+        "importPath": "app.repositories",
+        "description": "app.repositories",
+        "isExtraImport": true,
+        "detail": "app.repositories",
+        "documentation": {}
+    },
+    {
         "label": "TodoItem",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
         "importPath": "app.models",
         "description": "app.models",
         "isExtraImport": true,
@@ -244,7 +324,23 @@
         "documentation": {}
     },
     {
+        "label": "User",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
         "label": "TodoItem",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
         "importPath": "app.models",
         "description": "app.models",
         "isExtraImport": true,
@@ -361,7 +457,16 @@
         "kind": 6,
         "importPath": "app.controllers",
         "description": "app.controllers",
-        "peekOfCode": "class TodoController(Controller):\n    path = \"/items\"\n    return_dto=TodoItemReadDTO\n    dependencies = {\n        \"todoitem_repo\": Provide(provide_todoitem_repo)\n    }\n    @get(\"/\")\n    async def list_items(self, todoitems_repo: TodoItemRepository, done: bool | None = None) -> Sequence[TodoItem]:\n        return todoitems_repo.list(ComparisonFilter(\"done\", \"eq\". done))\n    @post(\"/\", dto=TodoItemCreateDTO)",
+        "peekOfCode": "class TodoController(Controller):\n    path = \"/items\"\n    tags = [\"Items\"]\n    return_dto=TodoItemReadDTO\n    dependencies = {\n        \"todoitem_repo\": Provide(provide_todoitem_repo)\n    }\n    @get(\"/\")\n    async def list_items(self, todoitem_repo: TodoItemRepository, done: bool | None = None) -> Sequence[TodoItem]:\n        if done is None:",
+        "detail": "app.controllers",
+        "documentation": {}
+    },
+    {
+        "label": "UserController",
+        "kind": 6,
+        "importPath": "app.controllers",
+        "description": "app.controllers",
+        "peekOfCode": "class UserController(Controller):\n    path = \"/users\"\n    tags = [\"Users\"]\n    dependencies = {\n        \"users_repo\": Provide(provide_users_repo)\n    }\n    return_dto = UserReadDTO\n    @get(\"/\")\n    async def list_users(self, users_repo: UserRepository) -> Sequence[User]:\n        return users_repo.list()",
         "detail": "app.controllers",
         "documentation": {}
     },
@@ -370,7 +475,16 @@
         "kind": 6,
         "importPath": "app.dtos",
         "description": "app.dtos",
-        "peekOfCode": "class TodoItemReadDTO(SQLAlchemyDTO[TodoItem]):\n    pass\nclass TodoItemCreateDTO(SQLAlchemyDTO[TodoItem]):\n    config = SQLAlchemyDTOConfig(exclude=[\"id\"])\nclass TodoItemUpdateDTO(SQLAlchemyDTO[TodoItem]):\n    config = SQLAlchemyDTOConfig(exclude=[\"id\"], partial=True, )",
+        "peekOfCode": "class TodoItemReadDTO(SQLAlchemyDTO[TodoItem]):\n    config = SQLAlchemyDTOConfig(exclude=[\"user_id\", \"user\"])\nclass TodoItemFullReadDTO(SQLAlchemyDTO[TodoItem]):\n    pass\nclass TodoItemCreateDTO(SQLAlchemyDTO[TodoItem]):\n    config = SQLAlchemyDTOConfig(exclude=[\"user\", \"id\"])\nclass TodoItemUpdateDTO(SQLAlchemyDTO[TodoItem]):\n    config = SQLAlchemyDTOConfig(exclude=[\"id\"], partial=True, )\nclass UserReadDTO(SQLAlchemyDTO[User]):\n    config = SQLAlchemyDTOConfig(exclude=[\"items\"])",
+        "detail": "app.dtos",
+        "documentation": {}
+    },
+    {
+        "label": "TodoItemFullReadDTO",
+        "kind": 6,
+        "importPath": "app.dtos",
+        "description": "app.dtos",
+        "peekOfCode": "class TodoItemFullReadDTO(SQLAlchemyDTO[TodoItem]):\n    pass\nclass TodoItemCreateDTO(SQLAlchemyDTO[TodoItem]):\n    config = SQLAlchemyDTOConfig(exclude=[\"user\", \"id\"])\nclass TodoItemUpdateDTO(SQLAlchemyDTO[TodoItem]):\n    config = SQLAlchemyDTOConfig(exclude=[\"id\"], partial=True, )\nclass UserReadDTO(SQLAlchemyDTO[User]):\n    config = SQLAlchemyDTOConfig(exclude=[\"items\"])\nclass UserReadFullDTO(SQLAlchemyDTO[User]):\n    pass",
         "detail": "app.dtos",
         "documentation": {}
     },
@@ -379,7 +493,7 @@
         "kind": 6,
         "importPath": "app.dtos",
         "description": "app.dtos",
-        "peekOfCode": "class TodoItemCreateDTO(SQLAlchemyDTO[TodoItem]):\n    config = SQLAlchemyDTOConfig(exclude=[\"id\"])\nclass TodoItemUpdateDTO(SQLAlchemyDTO[TodoItem]):\n    config = SQLAlchemyDTOConfig(exclude=[\"id\"], partial=True, )",
+        "peekOfCode": "class TodoItemCreateDTO(SQLAlchemyDTO[TodoItem]):\n    config = SQLAlchemyDTOConfig(exclude=[\"user\", \"id\"])\nclass TodoItemUpdateDTO(SQLAlchemyDTO[TodoItem]):\n    config = SQLAlchemyDTOConfig(exclude=[\"id\"], partial=True, )\nclass UserReadDTO(SQLAlchemyDTO[User]):\n    config = SQLAlchemyDTOConfig(exclude=[\"items\"])\nclass UserReadFullDTO(SQLAlchemyDTO[User]):\n    pass",
         "detail": "app.dtos",
         "documentation": {}
     },
@@ -388,7 +502,25 @@
         "kind": 6,
         "importPath": "app.dtos",
         "description": "app.dtos",
-        "peekOfCode": "class TodoItemUpdateDTO(SQLAlchemyDTO[TodoItem]):\n    config = SQLAlchemyDTOConfig(exclude=[\"id\"], partial=True, )",
+        "peekOfCode": "class TodoItemUpdateDTO(SQLAlchemyDTO[TodoItem]):\n    config = SQLAlchemyDTOConfig(exclude=[\"id\"], partial=True, )\nclass UserReadDTO(SQLAlchemyDTO[User]):\n    config = SQLAlchemyDTOConfig(exclude=[\"items\"])\nclass UserReadFullDTO(SQLAlchemyDTO[User]):\n    pass",
+        "detail": "app.dtos",
+        "documentation": {}
+    },
+    {
+        "label": "UserReadDTO",
+        "kind": 6,
+        "importPath": "app.dtos",
+        "description": "app.dtos",
+        "peekOfCode": "class UserReadDTO(SQLAlchemyDTO[User]):\n    config = SQLAlchemyDTOConfig(exclude=[\"items\"])\nclass UserReadFullDTO(SQLAlchemyDTO[User]):\n    pass",
+        "detail": "app.dtos",
+        "documentation": {}
+    },
+    {
+        "label": "UserReadFullDTO",
+        "kind": 6,
+        "importPath": "app.dtos",
+        "description": "app.dtos",
+        "peekOfCode": "class UserReadFullDTO(SQLAlchemyDTO[User]):\n    pass",
         "detail": "app.dtos",
         "documentation": {}
     },
@@ -397,7 +529,7 @@
         "kind": 6,
         "importPath": "app.models",
         "description": "app.models",
-        "peekOfCode": "class Base(DeclarativeBase):\n    pass\nclass TodoItem(Base):\n    __tablename__ = \"todo_items\"\n    id: Mapped[int] = mapped_column(primary_key=True)\n    title: Mapped[str]\n    done: Mapped[bool]",
+        "peekOfCode": "class Base(DeclarativeBase):\n    pass\nclass TodoItem(Base):\n    __tablename__ = \"todo_items\"\n    id: Mapped[int] = mapped_column(primary_key=True)\n    title: Mapped[str]\n    done: Mapped[bool]\n    user_id: Mapped[Optional[int]] = mapped_column(ForeignKey(\"users.id\"))\n    user: Mapped[Optional[\"User\"]] = relationship(back_populates=\"items\")\nclass User(Base):",
         "detail": "app.models",
         "documentation": {}
     },
@@ -406,7 +538,16 @@
         "kind": 6,
         "importPath": "app.models",
         "description": "app.models",
-        "peekOfCode": "class TodoItem(Base):\n    __tablename__ = \"todo_items\"\n    id: Mapped[int] = mapped_column(primary_key=True)\n    title: Mapped[str]\n    done: Mapped[bool]",
+        "peekOfCode": "class TodoItem(Base):\n    __tablename__ = \"todo_items\"\n    id: Mapped[int] = mapped_column(primary_key=True)\n    title: Mapped[str]\n    done: Mapped[bool]\n    user_id: Mapped[Optional[int]] = mapped_column(ForeignKey(\"users.id\"))\n    user: Mapped[Optional[\"User\"]] = relationship(back_populates=\"items\")\nclass User(Base):\n    __tablename__ = \"users\"\n    id: Mapped[int] = mapped_column(primary_key=True)",
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "app.models",
+        "description": "app.models",
+        "peekOfCode": "class User(Base):\n    __tablename__ = \"users\"\n    id: Mapped[int] = mapped_column(primary_key=True)\n    username: Mapped[str]\n    password: Mapped[str]\n    items: Mapped[list[\"TodoItem\"]] = relationship(back_populates=\"user\")",
         "detail": "app.models",
         "documentation": {}
     },
@@ -415,7 +556,16 @@
         "kind": 6,
         "importPath": "app.repositories",
         "description": "app.repositories",
-        "peekOfCode": "class TodoItemRepository(SQLAlchemySyncRepository[TodoItem]):\n    model_type = TodoItem\nasync def provide_todoitem_repo(db_session: Session) -> TodoItemRepository:\n    return TodoItemRepository(session=db_session)",
+        "peekOfCode": "class TodoItemRepository(SQLAlchemySyncRepository[TodoItem]):\n    model_type = TodoItem\nasync def provide_todoitem_repo(db_session: Session) -> TodoItemRepository:\n    return TodoItemRepository(session=db_session)\nclass UserRepository(SQLAlchemySyncRepository[User]):\n    model_type = User\nasync def provide_users_repo(db_session: Session) -> UserRepository:\n    return UserRepository(session=db_session)",
+        "detail": "app.repositories",
+        "documentation": {}
+    },
+    {
+        "label": "UserRepository",
+        "kind": 6,
+        "importPath": "app.repositories",
+        "description": "app.repositories",
+        "peekOfCode": "class UserRepository(SQLAlchemySyncRepository[User]):\n    model_type = User\nasync def provide_users_repo(db_session: Session) -> UserRepository:\n    return UserRepository(session=db_session)",
         "detail": "app.repositories",
         "documentation": {}
     }
